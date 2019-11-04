@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LT8609EMSETRPBF
+#
+DEF LT8609EMSETRPBF U 0 40 Y Y 1 L N
+F0 "U" 1116 360 50 H V L BNN
+F1 "LT8609EMSETRPBF" 1091 259 50 H V L BNN
+F2 "MSOP-10_MSE" 0 0 50 H I L BNN
+F3 "Linear Technology/Analog" 0 0 50 H I L BNN
+F4 "MSOP-10 Linear Technology" 0 0 50 H I L BNN
+F5 "LT8609/LT8609A/LT8609B - 42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5μA Quiescent Current" 0 0 50 H I L BNN
+F6 "LT8609EMSE#TRPBFCT-ND" 0 0 50 H I L BNN
+F7 "LT8609EMSE#TRPBF" 0 0 50 H I L BNN
+F8 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT8609EMSE-TRPBF/LT8609EMSE-TRPBFCT-ND/7838162?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 300 200 300 -700 N
+P 2 0 0 6 300 -700 2300 -700 N
+P 2 0 0 6 2300 -700 2300 200 N
+P 2 0 0 6 2300 200 300 200 N
+X BST 1 0 0 300 R 40 40 0 0 I 
+X SW 2 0 -100 300 R 40 40 0 0 O 
+X INTVCC 3 0 -200 300 R 40 40 0 0 P 
+X RT 4 0 -300 300 R 40 40 0 0 P 
+X SYNC 5 0 -400 300 R 40 40 0 0 I 
+X FB 6 2600 -500 300 L 40 40 0 0 P 
+X TR/SS 7 2600 -400 300 L 40 40 0 0 O 
+X PG 8 2600 -300 300 L 40 40 0 0 O 
+X VIN 9 2600 -200 300 L 40 40 0 0 I 
+X EN/UV 10 2600 -100 300 L 40 40 0 0 P 
+X GND 11 2600 0 300 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
