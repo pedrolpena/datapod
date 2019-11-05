@@ -354,10 +354,6 @@ Wire Wire Line
 Connection ~ 4550 6700
 Wire Wire Line
 	4200 6700 4550 6700
-Text GLabel 3600 6700 0    50   Input ~ 0
-VcR1
-Wire Wire Line
-	3600 6700 3800 6700
 Text GLabel 2450 1550 2    50   Input ~ 0
 MICRO_SD_CS
 Wire Wire Line
@@ -399,4 +395,5 @@ Wire Wire Line
 	4550 5900 4550 6000
 Connection ~ 4550 5900
 Connection ~ 4550 6000
+NoConn ~ 3800 6700
 $EndSCHEMATC
