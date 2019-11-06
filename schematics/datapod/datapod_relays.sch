@@ -316,22 +316,6 @@ $EndComp
 Wire Wire Line
 	2450 3000 2850 3000
 $Comp
-L Relays_user_made:DS2E-SL2-DC5V K2
-U 1 1 5DC547DE
-P 6550 2450
-AR Path="/5DC547DE" Ref="K2"  Part="1" 
-AR Path="/5E14D46E/5DC547DE" Ref="K2"  Part="1" 
-F 0 "K2" H 6500 2465 50  0000 C CNN
-F 1 "DS2E-SL2-DC5V" H 6500 2374 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 6550 2500 50  0001 C CNN
-F 3 "https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf" H 6550 2500 50  0001 C CNN
-F 4 "Digikey" H 6550 2450 50  0001 C CNN "Vendor"
-F 5 "ED11092-ND" H 6550 2450 50  0001 C CNN "Part#"
-F 6 "255-1066-ND" H 6550 2450 50  0001 C CNN "Part#"
-	1    6550 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Relays_user_made:DS2E-SL2-DC5V K1
 U 1 1 5DC56929
 P 2200 2450
@@ -342,7 +326,7 @@ F 1 "DS2E-SL2-DC5V" H 2150 2374 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 2200 2500 50  0001 C CNN
 F 3 "https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf" H 2200 2500 50  0001 C CNN
 F 4 "Digikey" H 2200 2450 50  0001 C CNN "Vendor"
-F 5 "ED11092-ND" H 2200 2450 50  0001 C CNN "Part#"
+F 5 "ED11086-ND" H 2200 2450 50  0001 C CNN "Part#"
 F 6 "255-1066-ND" H 2200 2450 50  0001 C CNN "Part#"
 	1    2200 2450
 	1    0    0    -1  
@@ -493,4 +477,20 @@ Wire Wire Line
 	5650 3500 5650 3650
 Text Notes 4650 3750 0    50   ~ 0
 THIS CONNECTOR IS FOR \nTHE RASPBERRY PI
+$Comp
+L Relays_user_made:DS2E-SL2-DC5V K2
+U 1 1 5DC547DE
+P 6550 2450
+AR Path="/5DC547DE" Ref="K2"  Part="1" 
+AR Path="/5E14D46E/5DC547DE" Ref="K2"  Part="1" 
+F 0 "K2" H 6500 2465 50  0000 C CNN
+F 1 "DS2E-SL2-DC5V" H 6500 2374 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 6550 2500 50  0001 C CNN
+F 3 "https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf" H 6550 2500 50  0001 C CNN
+F 4 "Digikey" H 6550 2450 50  0001 C CNN "Vendor"
+F 5 "ED11086-ND" H 6550 2450 50  0001 C CNN "Part#"
+F 6 "255-1066-ND" H 6550 2450 50  0001 C CNN "Part#"
+	1    6550 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

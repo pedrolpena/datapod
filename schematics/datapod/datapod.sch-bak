@@ -22,7 +22,7 @@ F 0 "U1" H 1000 4500 50  0000 R CNN
 F 1 "ATmega328P-PU" H 1300 4300 50  0000 R CNN
 F 2 "Package_DIP:DIP-28_W7.62mm_SMDSocket_SmallPads" H 1600 2550 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1600 2550 50  0001 C CNN
-F 4 "microchip" H 1600 2550 50  0001 C CNN "Vendor"
+F 4 "Digikey" H 1600 2550 50  0001 C CNN "Vendor"
 F 5 "110-47-328-41-105000 " H 1600 2550 50  0001 C CNN "Part#"
 F 6 "https://www.digikey.com/products/en?mpart=110-47-328-41-105000&v=54" H 1600 2550 50  0001 C CNN "Datasheet2"
 	1    1600 2550
