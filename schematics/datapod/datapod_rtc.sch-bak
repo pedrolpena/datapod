@@ -146,12 +146,10 @@ NoConn ~ 2600 5600
 NoConn ~ 2600 5700
 NoConn ~ 2600 5800
 NoConn ~ 2600 5900
-NoConn ~ 2600 6000
 NoConn ~ 3000 5600
 NoConn ~ 3000 5700
 NoConn ~ 3000 5800
 NoConn ~ 3000 5900
-NoConn ~ 3000 6000
 NoConn ~ 6000 3900
 NoConn ~ 6000 3600
 NoConn ~ 5000 4000
@@ -172,10 +170,17 @@ F 5 "OSOPT-10KACT-ND " H 2800 5600 50  0001 C CNN "Part#"
 $EndComp
 NoConn ~ 3000 5500
 NoConn ~ 2600 5500
-NoConn ~ 2600 5300
 NoConn ~ 2600 5400
 Wire Wire Line
 	4250 5200 4250 5700
 NoConn ~ 3000 5300
 NoConn ~ 3000 5400
+Text GLabel 2250 6000 0    50   Input ~ 0
+VcR1
+NoConn ~ 2600 5300
+Wire Wire Line
+	2250 6000 2600 6000
+Wire Wire Line
+	3000 6000 4250 6000
+Connection ~ 4250 6000
 $EndSCHEMATC

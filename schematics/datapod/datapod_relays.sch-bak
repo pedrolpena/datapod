@@ -23,7 +23,7 @@ F 1 "FDG1024NZ" H 3500 3150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4100 2925 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf" H 3900 3000 50  0001 L CNN
 F 4 "Digikey" H 3900 3000 50  0001 C CNN "Vendor"
-F 5 "FDG1024NZFSCT-ND" H 3900 3000 50  0001 C CNN "part#"
+F 5 "FDG1024NZFSCT-ND" H 3900 3000 50  0001 C CNN "Part#"
 	2    3900 3000
 	-1   0    0    -1  
 $EndComp
@@ -36,7 +36,7 @@ F 1 "FDG1024NZ" H 3150 3350 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3700 2925 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf" H 3500 3000 50  0001 L CNN
 F 4 "Digikey" H 3500 3000 50  0001 C CNN "Vendor"
-F 5 "FDG1024NZFSCT-ND" H 3500 3000 50  0001 C CNN "part#"
+F 5 "FDG1024NZFSCT-ND" H 3500 3000 50  0001 C CNN "Part#"
 	1    3500 3000
 	1    0    0    -1  
 $EndComp
@@ -73,6 +73,7 @@ F 1 "B220A-13-F " H 2950 4300 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 2950 3925 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 2950 4100 50  0001 C CNN
 F 4 "Digikey" H 2950 4100 50  0001 C CNN "Vendor"
+F 5 "B220A-FDIDKR-ND" H 2950 4100 50  0001 C CNN "Part#"
 	1    2950 4100
 	0    -1   1    0   
 $EndComp
@@ -87,6 +88,7 @@ F 1 "B220A-13-F " H 3100 3950 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 3100 3925 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3100 4100 50  0001 C CNN
 F 4 "Digikey" H 3100 4100 50  0001 C CNN "Vendor"
+F 5 "B220A-FDIDKR-ND" H 3100 4100 50  0001 C CNN "Part#"
 	1    3100 4100
 	0    -1   1    0   
 $EndComp
@@ -133,7 +135,7 @@ F 1 "FDG1024NZ" H 7500 3350 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8050 2925 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf" H 7850 3000 50  0001 L CNN
 F 4 "Digikey" H 7850 3000 50  0001 C CNN "Vendor"
-F 5 "FDG1024NZFSCT-ND" H 7850 3000 50  0001 C CNN "part#"
+F 5 "FDG1024NZFSCT-ND" H 7850 3000 50  0001 C CNN "Part#"
 	1    7850 3000
 	1    0    0    -1  
 $EndComp
@@ -146,7 +148,7 @@ F 1 "FDG1024NZ" H 7850 3150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8450 2925 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf" H 8250 3000 50  0001 L CNN
 F 4 "Digikey" H 8250 3000 50  0001 C CNN "Vendor"
-F 5 "FDG1024NZFSCT-ND" H 8250 3000 50  0001 C CNN "part#"
+F 5 "FDG1024NZFSCT-ND" H 8250 3000 50  0001 C CNN "Part#"
 	2    8250 3000
 	-1   0    0    -1  
 $EndComp
@@ -169,6 +171,7 @@ F 1 "B220A-13-F " H 7300 4350 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 7300 3975 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7300 4150 50  0001 C CNN
 F 4 "Digikey" H 7300 4150 50  0001 C CNN "Vendor"
+F 5 "B220A-FDIDKR-ND" H 7300 4150 50  0001 C CNN "Part#"
 	1    7300 4150
 	0    -1   1    0   
 $EndComp
@@ -183,6 +186,7 @@ F 1 "B220A-13-F " H 7450 4000 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 7450 3975 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7450 4150 50  0001 C CNN
 F 4 "Digikey" H 7450 4150 50  0001 C CNN "Vendor"
+F 5 "B220A-FDIDKR-ND" H 7450 4150 50  0001 C CNN "Part#"
 	1    7450 4150
 	0    -1   1    0   
 $EndComp
@@ -321,6 +325,9 @@ F 0 "K2" H 6500 2465 50  0000 C CNN
 F 1 "DS2E-SL2-DC5V" H 6500 2374 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 6550 2500 50  0001 C CNN
 F 3 "https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf" H 6550 2500 50  0001 C CNN
+F 4 "Digikey" H 6550 2450 50  0001 C CNN "Vendor"
+F 5 "ED11092-ND" H 6550 2450 50  0001 C CNN "Part#"
+F 6 "255-1066-ND" H 6550 2450 50  0001 C CNN "Part#"
 	1    6550 2450
 	1    0    0    -1  
 $EndComp
@@ -334,6 +341,9 @@ F 0 "K1" H 2150 2465 50  0000 C CNN
 F 1 "DS2E-SL2-DC5V" H 2150 2374 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 2200 2500 50  0001 C CNN
 F 3 "https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf" H 2200 2500 50  0001 C CNN
+F 4 "Digikey" H 2200 2450 50  0001 C CNN "Vendor"
+F 5 "ED11092-ND" H 2200 2450 50  0001 C CNN "Part#"
+F 6 "255-1066-ND" H 2200 2450 50  0001 C CNN "Part#"
 	1    2200 2450
 	1    0    0    -1  
 $EndComp

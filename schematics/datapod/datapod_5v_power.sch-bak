@@ -222,7 +222,7 @@ F 1 "10uF" H 950 6700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1338 6600 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TCJ.pdf" H 1300 6750 50  0001 C CNN
 F 4 "Digikey" H 1300 6750 50  0001 C CNN "Vendor"
-F 5 "TCJA106M025R0150" H 1300 6750 50  0001 C CNN "part#"
+F 5 "TCJA106M025R0150" H 1300 6750 50  0001 C CNN "Part#"
 	1    1300 6750
 	1    0    0    -1  
 $EndComp
@@ -237,7 +237,7 @@ F 1 "10uF" H 1900 6700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1738 6600 50  0001 C CNN
 F 3 "http://datasheets.avx.com/TCJ.pdf" H 1700 6750 50  0001 C CNN
 F 4 "Digikey" H 1700 6750 50  0001 C CNN "Vendor"
-F 5 "TCJA106M025R0150" H 1700 6750 50  0001 C CNN "part#"
+F 5 "TCJA106M025R0150" H 1700 6750 50  0001 C CNN "Part#"
 	1    1700 6750
 	1    0    0    -1  
 $EndComp
