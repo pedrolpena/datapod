@@ -224,7 +224,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5D05B)
-    (at 251.714 279.4)
+    (at 253.746 257.302)
     (path /5DCABA18)
     (fp_text reference J33 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -245,7 +245,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5D04E)
-    (at 181.396 278.728)
+    (at 183.428 256.122)
     (path /5DCABA07)
     (fp_text reference J32 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -266,7 +266,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5D041)
-    (at 104.434 278.728)
+    (at 106.212 255.106)
     (path /5DCAB9F6)
     (fp_text reference J31 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -287,7 +287,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5D034)
-    (at 30.48 278.638)
+    (at 31.242 256.286)
     (path /5DCAB9E5)
     (fp_text reference J30 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -308,7 +308,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5D027)
-    (at 253.278 237.58)
+    (at 153.530999 143.192999)
     (path /5DCA6656)
     (fp_text reference J29 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -329,7 +329,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5D01A)
-    (at 179.578 230.886)
+    (at 164.570999 129.902999)
     (path /5DCA6645)
     (fp_text reference J28 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -392,7 +392,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CFF3)
-    (at 255.778 192.024)
+    (at 131.450999 143.192999)
     (path /5DCA665E)
     (fp_text reference J25 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -413,7 +413,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CFE6)
-    (at 178.602 181.954)
+    (at 153.530999 134.152999)
     (path /5DCA664D)
     (fp_text reference J24 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -476,7 +476,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CFBF)
-    (at 256.834 167.476)
+    (at 189.520999 93.742999)
     (path /5DCA3568)
     (fp_text reference J21 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -497,7 +497,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CFB2)
-    (at 180.086 158.242)
+    (at 164.570999 111.822999)
     (path /5DCA3557)
     (fp_text reference J20 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -560,7 +560,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CF8B)
-    (at 255.818 138.52)
+    (at 153.530999 116.072999)
     (path /5DCA3570)
     (fp_text reference J17 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -581,7 +581,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CF7E)
-    (at 177.586 126.328)
+    (at 189.520999 102.782999)
     (path /5DCA355F)
     (fp_text reference J16 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -644,7 +644,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CF57)
-    (at 258.358 116.168)
+    (at 178.480999 93.742999)
     (path /5DC99BF0)
     (fp_text reference J13 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -665,7 +665,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CF4A)
-    (at 177.8 110.744)
+    (at 167.440999 93.742999)
     (path /5DC994F8)
     (fp_text reference J12 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -728,7 +728,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CF23)
-    (at 258.826 79.756)
+    (at 142.490999 125.112999)
     (path /5DC99BF8)
     (fp_text reference J9 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -749,7 +749,7 @@
   )
 
   (module terminals:screw_terminal_7.0mmx5.0mm (layer F.Cu) (tedit 5DC4E3BC) (tstamp 5DC5CF16)
-    (at 175.046 79.338)
+    (at 131.450999 125.112999)
     (path /5DC99500)
     (fp_text reference J8 (at 0.02 6.64) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
