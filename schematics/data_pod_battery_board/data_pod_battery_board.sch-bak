@@ -1,0 +1,327 @@
+EESchema Schematic File Version 4
+LIBS:data_pod_battery_board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Data Pod Battery Board"
+Date ""
+Rev "1"
+Comp "NOAA\\AOML\\PHOD"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Pedro Pena"
+$EndDescr
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC4A612
+P 1500 2550
+F 0 "BT?" H 1618 2646 50  0000 L CNN
+F 1 "Battery_Cell" H 1618 2555 50  0000 L CNN
+F 2 "" V 1500 2610 50  0001 C CNN
+F 3 "~" V 1500 2610 50  0001 C CNN
+	1    1500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC4B913
+P 1500 3300
+F 0 "BT?" H 1618 3396 50  0000 L CNN
+F 1 "Battery_Cell" H 1618 3305 50  0000 L CNN
+F 2 "" V 1500 3360 50  0001 C CNN
+F 3 "~" V 1500 3360 50  0001 C CNN
+	1    1500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC4BE4E
+P 1500 4100
+F 0 "BT?" H 1618 4196 50  0000 L CNN
+F 1 "Battery_Cell" H 1618 4105 50  0000 L CNN
+F 2 "" V 1500 4160 50  0001 C CNN
+F 3 "~" V 1500 4160 50  0001 C CNN
+	1    1500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC4C06A
+P 1500 4900
+F 0 "BT?" H 1618 4996 50  0000 L CNN
+F 1 "Battery_Cell" H 1618 4905 50  0000 L CNN
+F 2 "" V 1500 4960 50  0001 C CNN
+F 3 "~" V 1500 4960 50  0001 C CNN
+	1    1500 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2050 1500 2350
+Wire Wire Line
+	1500 2650 1500 3100
+Wire Wire Line
+	1500 3400 1500 3900
+Wire Wire Line
+	1500 4200 1500 4700
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC54E9D
+P 2550 2550
+F 0 "BT?" H 2668 2646 50  0000 L CNN
+F 1 "Battery_Cell" H 2668 2555 50  0000 L CNN
+F 2 "" V 2550 2610 50  0001 C CNN
+F 3 "~" V 2550 2610 50  0001 C CNN
+	1    2550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC54EA3
+P 2550 3300
+F 0 "BT?" H 2668 3396 50  0000 L CNN
+F 1 "Battery_Cell" H 2668 3305 50  0000 L CNN
+F 2 "" V 2550 3360 50  0001 C CNN
+F 3 "~" V 2550 3360 50  0001 C CNN
+	1    2550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC54EA9
+P 2550 4100
+F 0 "BT?" H 2668 4196 50  0000 L CNN
+F 1 "Battery_Cell" H 2668 4105 50  0000 L CNN
+F 2 "" V 2550 4160 50  0001 C CNN
+F 3 "~" V 2550 4160 50  0001 C CNN
+	1    2550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC54EAF
+P 2550 4900
+F 0 "BT?" H 2668 4996 50  0000 L CNN
+F 1 "Battery_Cell" H 2668 4905 50  0000 L CNN
+F 2 "" V 2550 4960 50  0001 C CNN
+F 3 "~" V 2550 4960 50  0001 C CNN
+	1    2550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2050 2550 2350
+Wire Wire Line
+	2550 2650 2550 3100
+Wire Wire Line
+	2550 3400 2550 3900
+Wire Wire Line
+	2550 4200 2550 4700
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C33
+P 3650 2550
+F 0 "BT?" H 3768 2646 50  0000 L CNN
+F 1 "Battery_Cell" H 3768 2555 50  0000 L CNN
+F 2 "" V 3650 2610 50  0001 C CNN
+F 3 "~" V 3650 2610 50  0001 C CNN
+	1    3650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C39
+P 3650 3300
+F 0 "BT?" H 3768 3396 50  0000 L CNN
+F 1 "Battery_Cell" H 3768 3305 50  0000 L CNN
+F 2 "" V 3650 3360 50  0001 C CNN
+F 3 "~" V 3650 3360 50  0001 C CNN
+	1    3650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C3F
+P 3650 4100
+F 0 "BT?" H 3768 4196 50  0000 L CNN
+F 1 "Battery_Cell" H 3768 4105 50  0000 L CNN
+F 2 "" V 3650 4160 50  0001 C CNN
+F 3 "~" V 3650 4160 50  0001 C CNN
+	1    3650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C45
+P 3650 4900
+F 0 "BT?" H 3768 4996 50  0000 L CNN
+F 1 "Battery_Cell" H 3768 4905 50  0000 L CNN
+F 2 "" V 3650 4960 50  0001 C CNN
+F 3 "~" V 3650 4960 50  0001 C CNN
+	1    3650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2050 3650 2350
+Wire Wire Line
+	3650 2650 3650 3100
+Wire Wire Line
+	3650 3400 3650 3900
+Wire Wire Line
+	3650 4200 3650 4700
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C55
+P 4700 2550
+F 0 "BT?" H 4818 2646 50  0000 L CNN
+F 1 "Battery_Cell" H 4818 2555 50  0000 L CNN
+F 2 "" V 4700 2610 50  0001 C CNN
+F 3 "~" V 4700 2610 50  0001 C CNN
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C5B
+P 4700 3300
+F 0 "BT?" H 4818 3396 50  0000 L CNN
+F 1 "Battery_Cell" H 4818 3305 50  0000 L CNN
+F 2 "" V 4700 3360 50  0001 C CNN
+F 3 "~" V 4700 3360 50  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C61
+P 4700 4100
+F 0 "BT?" H 4818 4196 50  0000 L CNN
+F 1 "Battery_Cell" H 4818 4105 50  0000 L CNN
+F 2 "" V 4700 4160 50  0001 C CNN
+F 3 "~" V 4700 4160 50  0001 C CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5DC58C67
+P 4700 4900
+F 0 "BT?" H 4818 4996 50  0000 L CNN
+F 1 "Battery_Cell" H 4818 4905 50  0000 L CNN
+F 2 "" V 4700 4960 50  0001 C CNN
+F 3 "~" V 4700 4960 50  0001 C CNN
+	1    4700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2050 4700 2350
+Wire Wire Line
+	4700 2650 4700 3100
+Wire Wire Line
+	4700 3400 4700 3900
+Wire Wire Line
+	4700 4200 4700 4700
+Wire Wire Line
+	1500 5000 2550 5000
+Wire Wire Line
+	2550 5000 3650 5000
+Connection ~ 2550 5000
+Wire Wire Line
+	3650 5000 4700 5000
+Connection ~ 3650 5000
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DC55CD8
+P 6250 1750
+F 0 "J?" H 6330 1742 50  0000 L CNN
+F 1 "Conn_01x02" H 6330 1651 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 6250 1750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 6250 1750 50  0001 C CNN
+F 4 "Digikey" H 6250 1750 50  0001 C CNN "Vendor"
+F 5 "WM11908-ND" H 6250 1750 50  0001 C CNN "Part#"
+	1    6250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1850 6050 4900
+Wire Wire Line
+	4700 5000 6050 5000
+Connection ~ 4700 5000
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DC5FE0E
+P 6250 4900
+F 0 "J?" H 6330 4892 50  0000 L CNN
+F 1 "Conn_01x02" H 6330 4801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 6250 4900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 6250 4900 50  0001 C CNN
+F 4 "Digikey" H 6250 4900 50  0001 C CNN "Vendor"
+F 5 "WM11908-ND" H 6250 4900 50  0001 C CNN "Part#"
+	1    6250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5818 D?
+U 1 1 5DC66782
+P 4700 1900
+F 0 "D?" V 4654 1979 50  0000 L CNN
+F 1 "1N5818" V 4745 1979 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4700 1725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4700 1900 50  0001 C CNN
+F 4 "Digikey" V 4700 1900 50  0001 C CNN "Vendor"
+F 5 "1N5818-TPCT-ND" V 4700 1900 50  0001 C CNN "Part#"
+	1    4700 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 1750 2550 1750
+$Comp
+L Diode:1N5818 D?
+U 1 1 5DC67974
+P 1500 1900
+F 0 "D?" V 1454 1979 50  0000 L CNN
+F 1 "1N5818" V 1545 1979 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1500 1725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1500 1900 50  0001 C CNN
+F 4 "Digikey" V 1500 1900 50  0001 C CNN "Vendor"
+F 5 "1N5818-TPCT-ND" V 1500 1900 50  0001 C CNN "Part#"
+	1    1500 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N5818 D?
+U 1 1 5DC68697
+P 2550 1900
+F 0 "D?" V 2504 1979 50  0000 L CNN
+F 1 "1N5818" V 2595 1979 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2550 1725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2550 1900 50  0001 C CNN
+F 4 "Digikey" V 2550 1900 50  0001 C CNN "Vendor"
+F 5 "1N5818-TPCT-ND" V 2550 1900 50  0001 C CNN "Part#"
+	1    2550 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 1750
+Wire Wire Line
+	2550 1750 3650 1750
+$Comp
+L Diode:1N5818 D?
+U 1 1 5DC68F0B
+P 3650 1900
+F 0 "D?" V 3604 1979 50  0000 L CNN
+F 1 "1N5818" V 3695 1979 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 1725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3650 1900 50  0001 C CNN
+F 4 "Digikey" V 3650 1900 50  0001 C CNN "Vendor"
+F 5 "1N5818-TPCT-ND" V 3650 1900 50  0001 C CNN "Part#"
+	1    3650 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 3650 1750
+Wire Wire Line
+	3650 1750 4700 1750
+Connection ~ 4700 1750
+Wire Wire Line
+	4700 1750 6050 1750
+$EndSCHEMATC

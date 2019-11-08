@@ -1245,6 +1245,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/../3d_models/CR2032-50004LC.stp
+      (offset (xyz 0 0 5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module Connector_Molex:Molex_Mega-Fit_76825-0006_2x03_P5.70mm_Horizontal (layer F.Cu) (tedit 5B780151) (tstamp 5DC2256E)
@@ -1658,6 +1663,11 @@
       (offset (xyz 0 -1.2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/../3d_models/uSD_card.STEP
+      (offset (xyz -23.5 16.5 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -180 0 0))
     )
   )
 
