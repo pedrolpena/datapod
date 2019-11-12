@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name terminals)(type KiCad)(uri ${KIPRJMOD}/../footprints/terminals.pretty)(options "")(descr ""))
+  (lib (name battery)(type KiCad)(uri ${KIPRJMOD}/../footprints/battery.pretty)(options "")(descr ""))
 )
