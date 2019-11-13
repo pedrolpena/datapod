@@ -25,14 +25,14 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5DC55CD8
-P 6700 800
-F 0 "J1" H 6780 792 50  0000 L CNN
-F 1 "Conn_01x02" H 6780 701 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 6700 800 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 6700 800 50  0001 C CNN
-F 4 "Digikey" H 6700 800 50  0001 C CNN "Vendor"
-F 5 "WM11908-ND" H 6700 800 50  0001 C CNN "Part#"
-	1    6700 800 
+P 9650 800
+F 0 "J1" H 9730 792 50  0000 L CNN
+F 1 "Conn_01x02" H 9730 701 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 9650 800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 9650 800 50  0001 C CNN
+F 4 "Digikey" H 9650 800 50  0001 C CNN "Vendor"
+F 5 "WM11908-ND" H 9650 800 50  0001 C CNN "Part#"
+	1    9650 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -95,9 +95,6 @@ $EndComp
 Connection ~ 4100 800 
 Wire Wire Line
 	4100 800  5150 800 
-Connection ~ 5150 800 
-Wire Wire Line
-	5150 800  6500 800 
 $Comp
 L Connector:Screw_Terminal_01x01 J2
 U 1 1 5DC742C0
@@ -114,18 +111,16 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J34
 U 1 1 5DC9AA9B
-P 6700 5600
-F 0 "J34" H 6780 5592 50  0000 L CNN
-F 1 "Conn_01x02" H 6780 5501 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 6700 5600 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 6700 5600 50  0001 C CNN
-F 4 "Digikey" H 6700 5600 50  0001 C CNN "Vendor"
-F 5 "WM11908-ND" H 6700 5600 50  0001 C CNN "Part#"
-	1    6700 5600
+P 9650 5600
+F 0 "J34" H 9730 5592 50  0000 L CNN
+F 1 "Conn_01x02" H 9730 5501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 9650 5600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 9650 5600 50  0001 C CNN
+F 4 "Digikey" H 9650 5600 50  0001 C CNN "Vendor"
+F 5 "WM11908-ND" H 9650 5600 50  0001 C CNN "Part#"
+	1    9650 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 5600 6500 900 
 Wire Wire Line
 	1950 2250 1950 2550
 $Comp
@@ -554,14 +549,281 @@ F 5 "36-7691-ND " H 5150 5500 50  0001 C CNN "Part#"
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6500 5700 5150 5700
-Wire Wire Line
 	5150 5700 4100 5700
-Connection ~ 5150 5700
 Wire Wire Line
 	4100 5700 3000 5700
 Connection ~ 4100 5700
 Wire Wire Line
 	3000 5700 1950 5700
 Connection ~ 3000 5700
+Wire Wire Line
+	6250 1100 6250 1400
+Wire Wire Line
+	7300 1100 7300 1400
+$Comp
+L Diode:1N5818 D?
+U 1 1 5DCF4C15
+P 7300 950
+F 0 "D?" V 7254 1029 50  0000 L CNN
+F 1 "1N5818" V 7345 1029 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7300 775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 7300 950 50  0001 C CNN
+F 4 "Digikey" V 7300 950 50  0001 C CNN "Vendor"
+F 5 "1N5818-TPCT-ND" V 7300 950 50  0001 C CNN "Part#"
+	1    7300 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 800  6250 800 
+$Comp
+L Diode:1N5818 D?
+U 1 1 5DCF4C26
+P 6250 950
+F 0 "D?" V 6204 1029 50  0000 L CNN
+F 1 "1N5818" V 6295 1029 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6250 775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 6250 950 50  0001 C CNN
+F 4 "Digikey" V 6250 950 50  0001 C CNN "Vendor"
+F 5 "1N5818-TPCT-ND" V 6250 950 50  0001 C CNN "Part#"
+	1    6250 950 
+	0    1    1    0   
+$EndComp
+Connection ~ 6250 800 
+Wire Wire Line
+	6250 800  7300 800 
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C38
+P 6250 1600
+F 0 "J?" V 6122 1680 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 1680 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 1600 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 1600 50  0001 C CNN
+F 4 "Digikey" H 6250 1600 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 1600 50  0001 C CNN "Part#"
+	1    6250 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C40
+P 7300 1600
+F 0 "J?" V 7172 1680 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 1680 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 1600 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 1600 50  0001 C CNN
+F 4 "Digikey" H 7300 1600 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 1600 50  0001 C CNN "Part#"
+	1    7300 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 2250 6250 2550
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C59
+P 6250 2750
+F 0 "J?" V 6122 2830 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 2830 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 2750 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 2750 50  0001 C CNN
+F 4 "Digikey" H 6250 2750 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 2750 50  0001 C CNN "Part#"
+	1    6250 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C61
+P 6250 2050
+F 0 "J?" V 6122 2130 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 2130 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 2050 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 2050 50  0001 C CNN
+F 4 "Digikey" H 6250 2050 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 2050 50  0001 C CNN "Part#"
+	1    6250 2050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7300 2250 7300 2550
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C6A
+P 7300 2750
+F 0 "J?" V 7172 2830 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 2830 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 2750 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 2750 50  0001 C CNN
+F 4 "Digikey" H 7300 2750 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 2750 50  0001 C CNN "Part#"
+	1    7300 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C72
+P 7300 2050
+F 0 "J?" V 7172 2130 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 2130 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 2050 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 2050 50  0001 C CNN
+F 4 "Digikey" H 7300 2050 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 2050 50  0001 C CNN "Part#"
+	1    7300 2050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6250 3400 6250 3700
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C8B
+P 6250 3900
+F 0 "J?" V 6122 3980 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 3980 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 3900 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 3900 50  0001 C CNN
+F 4 "Digikey" H 6250 3900 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 3900 50  0001 C CNN "Part#"
+	1    6250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C93
+P 6250 3200
+F 0 "J?" V 6122 3280 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 3280 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 3200 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 3200 50  0001 C CNN
+F 4 "Digikey" H 6250 3200 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 3200 50  0001 C CNN "Part#"
+	1    6250 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7300 3400 7300 3700
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4C9C
+P 7300 3900
+F 0 "J?" V 7172 3980 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 3980 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 3900 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 3900 50  0001 C CNN
+F 4 "Digikey" H 7300 3900 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 3900 50  0001 C CNN "Part#"
+	1    7300 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4CA4
+P 7300 3200
+F 0 "J?" V 7172 3280 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 3280 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 3200 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 3200 50  0001 C CNN
+F 4 "Digikey" H 7300 3200 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 3200 50  0001 C CNN "Part#"
+	1    7300 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6250 4550 6250 4850
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4CBD
+P 6250 5050
+F 0 "J?" V 6122 5130 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 5130 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 5050 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 5050 50  0001 C CNN
+F 4 "Digikey" H 6250 5050 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 5050 50  0001 C CNN "Part#"
+	1    6250 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4CC5
+P 6250 4350
+F 0 "J?" V 6122 4430 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 4430 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 4350 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 4350 50  0001 C CNN
+F 4 "Digikey" H 6250 4350 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 4350 50  0001 C CNN "Part#"
+	1    6250 4350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7300 4550 7300 4850
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4CCE
+P 7300 5050
+F 0 "J?" V 7172 5130 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 5130 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 5050 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 5050 50  0001 C CNN
+F 4 "Digikey" H 7300 5050 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 5050 50  0001 C CNN "Part#"
+	1    7300 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4CD6
+P 7300 4350
+F 0 "J?" V 7172 4430 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 4430 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 4350 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 4350 50  0001 C CNN
+F 4 "Digikey" H 7300 4350 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 4350 50  0001 C CNN "Part#"
+	1    7300 4350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4CE6
+P 6250 5500
+F 0 "J?" V 6122 5580 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 6213 5580 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 5500 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 5500 50  0001 C CNN
+F 4 "Digikey" H 6250 5500 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 6250 5500 50  0001 C CNN "Part#"
+	1    6250 5500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J?
+U 1 1 5DCF4CEE
+P 7300 5500
+F 0 "J?" V 7172 5580 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" V 7263 5580 50  0000 L CNN
+F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 5500 50  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 5500 50  0001 C CNN
+F 4 "Digikey" H 7300 5500 50  0001 C CNN "Vendor"
+F 5 "36-7691-ND " H 7300 5500 50  0001 C CNN "Part#"
+	1    7300 5500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7300 5700 6250 5700
+Wire Wire Line
+	6250 5700 5150 5700
+Connection ~ 6250 5700
+Connection ~ 5150 800 
+Connection ~ 5150 5700
+Wire Wire Line
+	7300 800  9450 800 
+Connection ~ 7300 800 
+Wire Wire Line
+	9450 5700 7300 5700
+Connection ~ 7300 5700
+Wire Wire Line
+	9450 900  9450 5600
 $EndSCHEMATC
