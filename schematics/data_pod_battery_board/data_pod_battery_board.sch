@@ -28,10 +28,10 @@ U 1 1 5DC55CD8
 P 9650 800
 F 0 "J1" H 9730 792 50  0000 L CNN
 F 1 "Conn_01x02" H 9730 701 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 9650 800 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 9650 800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 9650 800 50  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF" H 9650 800 50  0001 C CNN
 F 4 "Digikey" H 9650 800 50  0001 C CNN "Vendor"
-F 5 "WM11908-ND" H 9650 800 50  0001 C CNN "Part#"
+F 5 "WM15036-ND" H 9650 800 50  0001 C CNN "Part#"
 	1    9650 800 
 	1    0    0    -1  
 $EndComp
@@ -107,19 +107,6 @@ F 4 "Digikey" H 1950 1600 50  0001 C CNN "Vendor"
 F 5 "36-7691-ND " H 1950 1600 50  0001 C CNN "Part#"
 	1    1950 1600
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J34
-U 1 1 5DC9AA9B
-P 9650 5600
-F 0 "J34" H 9730 5592 50  0000 L CNN
-F 1 "Conn_01x02" H 9730 5501 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 9650 5600 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 9650 5600 50  0001 C CNN
-F 4 "Digikey" H 9650 5600 50  0001 C CNN "Vendor"
-F 5 "WM11908-ND" H 9650 5600 50  0001 C CNN "Part#"
-	1    9650 5600
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1950 2250 1950 2550
@@ -826,4 +813,17 @@ Wire Wire Line
 Connection ~ 7300 5700
 Wire Wire Line
 	9450 900  9450 5600
+$Comp
+L Connector_Generic:Conn_01x02 J34
+U 1 1 5DCCA61A
+P 9650 5600
+F 0 "J34" H 9730 5592 50  0000 L CNN
+F 1 "Conn_01x02" H 9730 5501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 9650 5600 50  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF" H 9650 5600 50  0001 C CNN
+F 4 "Digikey" H 9650 5600 50  0001 C CNN "Vendor"
+F 5 "WM15036-ND" H 9650 5600 50  0001 C CNN "Part#"
+	1    9650 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

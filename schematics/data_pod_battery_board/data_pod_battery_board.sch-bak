@@ -561,10 +561,10 @@ Wire Wire Line
 Wire Wire Line
 	7300 1100 7300 1400
 $Comp
-L Diode:1N5818 D?
+L Diode:1N5818 D6
 U 1 1 5DCF4C15
 P 7300 950
-F 0 "D?" V 7254 1029 50  0000 L CNN
+F 0 "D6" V 7254 1029 50  0000 L CNN
 F 1 "1N5818" V 7345 1029 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7300 775 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 7300 950 50  0001 C CNN
@@ -576,10 +576,10 @@ $EndComp
 Wire Wire Line
 	5150 800  6250 800 
 $Comp
-L Diode:1N5818 D?
+L Diode:1N5818 D5
 U 1 1 5DCF4C26
 P 6250 950
-F 0 "D?" V 6204 1029 50  0000 L CNN
+F 0 "D5" V 6204 1029 50  0000 L CNN
 F 1 "1N5818" V 6295 1029 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6250 775 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 6250 950 50  0001 C CNN
@@ -592,10 +592,10 @@ Connection ~ 6250 800
 Wire Wire Line
 	6250 800  7300 800 
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J35
 U 1 1 5DCF4C38
 P 6250 1600
-F 0 "J?" V 6122 1680 50  0000 L CNN
+F 0 "J35" V 6122 1680 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 1680 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 1600 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 1600 50  0001 C CNN
@@ -605,10 +605,10 @@ F 5 "36-7691-ND " H 6250 1600 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J36
 U 1 1 5DCF4C40
 P 7300 1600
-F 0 "J?" V 7172 1680 50  0000 L CNN
+F 0 "J36" V 7172 1680 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 1680 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 1600 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 1600 50  0001 C CNN
@@ -620,10 +620,10 @@ $EndComp
 Wire Wire Line
 	6250 2250 6250 2550
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J39
 U 1 1 5DCF4C59
 P 6250 2750
-F 0 "J?" V 6122 2830 50  0000 L CNN
+F 0 "J39" V 6122 2830 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 2830 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 2750 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 2750 50  0001 C CNN
@@ -633,10 +633,10 @@ F 5 "36-7691-ND " H 6250 2750 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J37
 U 1 1 5DCF4C61
 P 6250 2050
-F 0 "J?" V 6122 2130 50  0000 L CNN
+F 0 "J37" V 6122 2130 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 2130 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 2050 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 2050 50  0001 C CNN
@@ -648,10 +648,10 @@ $EndComp
 Wire Wire Line
 	7300 2250 7300 2550
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J40
 U 1 1 5DCF4C6A
 P 7300 2750
-F 0 "J?" V 7172 2830 50  0000 L CNN
+F 0 "J40" V 7172 2830 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 2830 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 2750 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 2750 50  0001 C CNN
@@ -661,10 +661,10 @@ F 5 "36-7691-ND " H 7300 2750 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J38
 U 1 1 5DCF4C72
 P 7300 2050
-F 0 "J?" V 7172 2130 50  0000 L CNN
+F 0 "J38" V 7172 2130 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 2130 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 2050 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 2050 50  0001 C CNN
@@ -676,10 +676,10 @@ $EndComp
 Wire Wire Line
 	6250 3400 6250 3700
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J43
 U 1 1 5DCF4C8B
 P 6250 3900
-F 0 "J?" V 6122 3980 50  0000 L CNN
+F 0 "J43" V 6122 3980 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 3980 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 3900 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 3900 50  0001 C CNN
@@ -689,10 +689,10 @@ F 5 "36-7691-ND " H 6250 3900 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J41
 U 1 1 5DCF4C93
 P 6250 3200
-F 0 "J?" V 6122 3280 50  0000 L CNN
+F 0 "J41" V 6122 3280 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 3280 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 3200 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 3200 50  0001 C CNN
@@ -704,10 +704,10 @@ $EndComp
 Wire Wire Line
 	7300 3400 7300 3700
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J44
 U 1 1 5DCF4C9C
 P 7300 3900
-F 0 "J?" V 7172 3980 50  0000 L CNN
+F 0 "J44" V 7172 3980 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 3980 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 3900 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 3900 50  0001 C CNN
@@ -717,10 +717,10 @@ F 5 "36-7691-ND " H 7300 3900 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J42
 U 1 1 5DCF4CA4
 P 7300 3200
-F 0 "J?" V 7172 3280 50  0000 L CNN
+F 0 "J42" V 7172 3280 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 3280 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 3200 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 3200 50  0001 C CNN
@@ -732,10 +732,10 @@ $EndComp
 Wire Wire Line
 	6250 4550 6250 4850
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J47
 U 1 1 5DCF4CBD
 P 6250 5050
-F 0 "J?" V 6122 5130 50  0000 L CNN
+F 0 "J47" V 6122 5130 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 5130 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 5050 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 5050 50  0001 C CNN
@@ -745,10 +745,10 @@ F 5 "36-7691-ND " H 6250 5050 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J45
 U 1 1 5DCF4CC5
 P 6250 4350
-F 0 "J?" V 6122 4430 50  0000 L CNN
+F 0 "J45" V 6122 4430 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 4430 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 4350 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 4350 50  0001 C CNN
@@ -760,10 +760,10 @@ $EndComp
 Wire Wire Line
 	7300 4550 7300 4850
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J48
 U 1 1 5DCF4CCE
 P 7300 5050
-F 0 "J?" V 7172 5130 50  0000 L CNN
+F 0 "J48" V 7172 5130 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 5130 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 5050 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 5050 50  0001 C CNN
@@ -773,10 +773,10 @@ F 5 "36-7691-ND " H 7300 5050 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J46
 U 1 1 5DCF4CD6
 P 7300 4350
-F 0 "J?" V 7172 4430 50  0000 L CNN
+F 0 "J46" V 7172 4430 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 4430 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 4350 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 4350 50  0001 C CNN
@@ -786,10 +786,10 @@ F 5 "36-7691-ND " H 7300 4350 50  0001 C CNN "Part#"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J49
 U 1 1 5DCF4CE6
 P 6250 5500
-F 0 "J?" V 6122 5580 50  0000 L CNN
+F 0 "J49" V 6122 5580 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 6213 5580 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 6250 5500 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 6250 5500 50  0001 C CNN
@@ -799,10 +799,10 @@ F 5 "36-7691-ND " H 6250 5500 50  0001 C CNN "Part#"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x01 J?
+L Connector:Screw_Terminal_01x01 J50
 U 1 1 5DCF4CEE
 P 7300 5500
-F 0 "J?" V 7172 5580 50  0000 L CNN
+F 0 "J50" V 7172 5580 50  0000 L CNN
 F 1 "Screw_Terminal_01x01" V 7263 5580 50  0000 L CNN
 F 2 "terminals:screw_terminal_7.0mmx5.0mm" H 7300 5500 50  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p66.pdf" H 7300 5500 50  0001 C CNN
