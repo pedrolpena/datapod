@@ -1,0 +1,65 @@
+Reference,Quantity, Part#, Value, Footprint, Datasheet, Vendor
+J1,12,WM15036-ND,Conn_01x02,Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF,Digikey
+D4,12,1N5818-TPCT-ND,1N5818,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88525/1n5817.pdf,Digikey
+D1,12,1N5818-TPCT-ND,1N5818,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88525/1n5817.pdf,Digikey
+D2,12,1N5818-TPCT-ND,1N5818,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88525/1n5817.pdf,Digikey
+D3,12,1N5818-TPCT-ND,1N5818,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88525/1n5817.pdf,Digikey
+J2,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J10,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J6,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J3,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J4,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J5,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J11,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J7,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J12,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J8,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J13,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J9,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J18,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J14,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J19,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J15,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J20,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J16,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J21,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J17,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J26,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J22,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J27,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J23,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J28,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J24,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J29,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J25,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J30,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J31,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J32,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J33,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+D6,12,1N5818-TPCT-ND,1N5818,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88525/1n5817.pdf,Digikey
+D5,12,1N5818-TPCT-ND,1N5818,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88525/1n5817.pdf,Digikey
+J35,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J36,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J39,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J37,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J40,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J38,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J43,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J41,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J44,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J42,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J47,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J45,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J48,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J46,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J49,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J50,12,36-7691-ND ,Screw_Terminal_01x01,terminals:screw_terminal_7.0mmx5.0mm,http://keyelco.com/userAssets/file/M65p66.pdf,Digikey
+J34,12,WM15036-ND,Conn_01x02,Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF,Digikey
+,576,36-78-ND,,,,
+, ,,,,,
+, ,,,  ,,
+, ,,,  ,,
+, ,,,,,
+, ,,,,,
+, ,,,,,
+, ,,,,,

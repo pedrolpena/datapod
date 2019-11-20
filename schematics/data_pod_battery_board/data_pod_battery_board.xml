@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/pena/kicad-projects/data_pod_battery_board/data_pod_battery_board.sch</source>
+    <date>Mon 18 Nov 2019 01:57:05 PM EST</date>
+    <tool>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Data Pod Battery Board</title>
+        <company>NOAA\AOML\PHOD</company>
+        <rev>1</rev>
+        <date/>
+        <source>data_pod_battery_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Pedro Pena"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF</datasheet>
+      <fields>
+        <field name="Part#">WM15036-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC55CD8</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N5818</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Part#">1N5818-TPCT-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC66782</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5818</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Part#">1N5818-TPCT-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC67974</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5818</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Part#">1N5818-TPCT-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC68697</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5818</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Part#">1N5818-TPCT-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC68F0B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC742C0</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC92738</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC94373</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC96983</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC96D8C</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC97705</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC98C10</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC98C18</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC994F8</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC99500</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC99BF0</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC99BF8</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA3535</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA353D</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA3546</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA354E</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA3557</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA355F</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA3568</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA3570</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA6623</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA662B</tstamp>
+    </comp>
+    <comp ref="J27">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA6634</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA663C</tstamp>
+    </comp>
+    <comp ref="J28">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA6645</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA664D</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA6656</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA665E</tstamp>
+    </comp>
+    <comp ref="J30">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCAB9E5</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCAB9F6</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCABA07</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCABA18</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N5818</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Part#">1N5818-TPCT-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C15</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N5818</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Part#">1N5818-TPCT-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Diode" part="1N5818" description="30V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C26</tstamp>
+    </comp>
+    <comp ref="J35">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C38</tstamp>
+    </comp>
+    <comp ref="J36">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C40</tstamp>
+    </comp>
+    <comp ref="J39">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C59</tstamp>
+    </comp>
+    <comp ref="J37">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C61</tstamp>
+    </comp>
+    <comp ref="J40">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C6A</tstamp>
+    </comp>
+    <comp ref="J38">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C72</tstamp>
+    </comp>
+    <comp ref="J43">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C8B</tstamp>
+    </comp>
+    <comp ref="J41">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C93</tstamp>
+    </comp>
+    <comp ref="J44">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4C9C</tstamp>
+    </comp>
+    <comp ref="J42">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CA4</tstamp>
+    </comp>
+    <comp ref="J47">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CBD</tstamp>
+    </comp>
+    <comp ref="J45">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CC5</tstamp>
+    </comp>
+    <comp ref="J48">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CCE</tstamp>
+    </comp>
+    <comp ref="J46">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CD6</tstamp>
+    </comp>
+    <comp ref="J49">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CE6</tstamp>
+    </comp>
+    <comp ref="J50">
+      <value>Screw_Terminal_01x01</value>
+      <footprint>terminals:screw_terminal_7.0mmx5.0mm</footprint>
+      <datasheet>http://keyelco.com/userAssets/file/M65p66.pdf</datasheet>
+      <fields>
+        <field name="Part#">36-7691-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF4CEE</tstamp>
+    </comp>
+    <comp ref="J34">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF</datasheet>
+      <fields>
+        <field name="Part#">WM15036-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCCA61A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x01">
+      <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SB120">
+      <aliases>
+        <alias>SB130</alias>
+        <alias>SB140</alias>
+        <alias>SB150</alias>
+        <alias>SB160</alias>
+        <alias>1N5817</alias>
+        <alias>1N5818</alias>
+        <alias>1N5819</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds23022.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SB120</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="J36" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J38-Pad1)">
+      <node ref="J38" pin="1"/>
+      <node ref="J40" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J37-Pad1)">
+      <node ref="J37" pin="1"/>
+      <node ref="J39" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D5-Pad2)">
+      <node ref="J35" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J25-Pad1)">
+      <node ref="J29" pin="1"/>
+      <node ref="J25" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="J34" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J30-Pad1)">
+      <node ref="J34" pin="2"/>
+      <node ref="J49" pin="1"/>
+      <node ref="J50" pin="1"/>
+      <node ref="J31" pin="1"/>
+      <node ref="J32" pin="1"/>
+      <node ref="J33" pin="1"/>
+      <node ref="J30" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J46-Pad1)">
+      <node ref="J48" pin="1"/>
+      <node ref="J46" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J45-Pad1)">
+      <node ref="J47" pin="1"/>
+      <node ref="J45" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J42-Pad1)">
+      <node ref="J42" pin="1"/>
+      <node ref="J44" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J41-Pad1)">
+      <node ref="J43" pin="1"/>
+      <node ref="J41" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J11-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J16-Pad1)">
+      <node ref="J20" pin="1"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J24-Pad1)">
+      <node ref="J24" pin="1"/>
+      <node ref="J28" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J23-Pad1)">
+      <node ref="J23" pin="1"/>
+      <node ref="J27" pin="1"/>
+    </net>
+    <net code="22" name="Net-(J22-Pad1)">
+      <node ref="J22" pin="1"/>
+      <node ref="J26" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J17-Pad1)">
+      <node ref="J17" pin="1"/>
+      <node ref="J21" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J15-Pad1)">
+      <node ref="J15" pin="1"/>
+      <node ref="J19" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J14-Pad1)">
+      <node ref="J14" pin="1"/>
+      <node ref="J18" pin="1"/>
+    </net>
+    <net code="26" name="Net-(J13-Pad1)">
+      <node ref="J9" pin="1"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="27" name="Net-(J12-Pad1)">
+      <node ref="J8" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+  </nets>
+</export>
