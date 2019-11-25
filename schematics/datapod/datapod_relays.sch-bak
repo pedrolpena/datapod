@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:datapod-cache
+LIBS:_autosave-datapod-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -327,7 +327,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 2200 2500 50  0001 C CNN
 F 3 "https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf" H 2200 2500 50  0001 C CNN
 F 4 "Digikey" H 2200 2450 50  0001 C CNN "Vendor"
 F 5 "ED11086-ND" H 2200 2450 50  0001 C CNN "Part#"
-F 6 "255-1066-ND" H 2200 2450 50  0001 C CNN "Part#"
+F 6 "255-1066-ND" H 2200 2450 50  0001 C CNN "Part#-2"
 	1    2200 2450
 	1    0    0    -1  
 $EndComp
@@ -489,7 +489,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 6550 2500 50  0001 C CNN
 F 3 "https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf" H 6550 2500 50  0001 C CNN
 F 4 "Digikey" H 6550 2450 50  0001 C CNN "Vendor"
 F 5 "ED11086-ND" H 6550 2450 50  0001 C CNN "Part#"
-F 6 "255-1066-ND" H 6550 2450 50  0001 C CNN "Part#"
+F 6 "255-1066-ND" H 6550 2450 50  0001 C CNN "Part#-2"
 	1    6550 2450
 	1    0    0    -1  
 $EndComp

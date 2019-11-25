@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:datapod-cache
+LIBS:_autosave-datapod-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -40,19 +40,6 @@ F 5 "732-3820-1-ND" H 8650 3400 50  0001 C CNN "Part#"
 	1    8650 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 5E49AE7B
-P 4750 4000
-F 0 "RN2" V 4333 4000 50  0000 C CNN
-F 1 "3.3K" V 4424 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 5025 4000 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf" H 4750 4000 50  0001 C CNN
-F 4 "Digikey" V 4750 4000 50  0001 C CNN "Vendor"
-F 5 "CAY16-332J4LFCT-ND" V 4750 4000 50  0001 C CNN "Part#"
-	1    4750 4000
-	0    1    1    0   
-$EndComp
 Text GLabel 3450 3900 0    50   Input ~ 0
 MICRO_SD_MOSI
 Wire Wire Line
@@ -85,10 +72,6 @@ Wire Wire Line
 	7750 3700 6850 3700
 Wire Wire Line
 	6850 3700 6850 5300
-Wire Wire Line
-	4950 4100 4950 5300
-Wire Wire Line
-	4950 5300 6850 5300
 Wire Wire Line
 	4550 4100 4050 4100
 Wire Wire Line
@@ -218,8 +201,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 4000 3450 4000
 Wire Wire Line
-	4950 4000 5350 4000
-Wire Wire Line
 	5350 4000 5350 4200
 Wire Wire Line
 	5350 4200 5650 4200
@@ -227,8 +208,6 @@ Wire Wire Line
 	5650 3100 5200 3100
 Wire Wire Line
 	5200 3100 5200 3900
-Wire Wire Line
-	5200 3900 4950 3900
 Wire Wire Line
 	3450 3800 4550 3800
 Wire Wire Line
@@ -294,4 +273,70 @@ F 5 "296-1222-1-ND" H 2950 4750 50  0001 C CNN "Part#"
 $EndComp
 Wire Wire Line
 	9450 4000 9450 4300
+Wire Wire Line
+	5250 5300 6850 5300
+Wire Wire Line
+	5250 4100 5250 5300
+$Comp
+L Device:R R5
+U 1 1 5DDEF8A9
+P 4700 3800
+F 0 "R5" V 4650 3400 50  0000 C CNN
+F 1 "3.3K" V 4650 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 3800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 3800 50  0001 C CNN
+F 4 "Digikey" V 4700 3800 50  0001 C CNN "Vendor"
+F 5 "A130544CT-ND" V 4700 3800 50  0001 C CNN "Part#"
+	1    4700 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 3800 4850 3800
+$Comp
+L Device:R R7
+U 1 1 5DDF39E5
+P 4700 4000
+F 0 "R7" V 4650 3600 50  0000 C CNN
+F 1 "3.3K" V 4650 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 4000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 4000 50  0001 C CNN
+F 4 "Digikey" V 4700 4000 50  0001 C CNN "Vendor"
+F 5 "A130544CT-ND" V 4700 4000 50  0001 C CNN "Part#"
+	1    4700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5DDF3C58
+P 4700 4100
+F 0 "R8" V 4650 3700 50  0000 C CNN
+F 1 "3.3K" V 4650 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 4100 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 4100 50  0001 C CNN
+F 4 "Digikey" V 4700 4100 50  0001 C CNN "Vendor"
+F 5 "A130544CT-ND" V 4700 4100 50  0001 C CNN "Part#"
+	1    4700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DDF37A5
+P 4700 3900
+F 0 "R6" V 4650 3500 50  0000 C CNN
+F 1 "3.3K" V 4650 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 3900 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 3900 50  0001 C CNN
+F 4 "Digikey" V 4700 3900 50  0001 C CNN "Vendor"
+F 5 "A130544CT-ND" V 4700 3900 50  0001 C CNN "Part#"
+	1    4700 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 3900 5200 3900
+Wire Wire Line
+	4850 4000 5350 4000
+Wire Wire Line
+	4850 4100 5250 4100
+Text Notes 9650 3600 0    59   ~ 0
+DAT2/X\nDAT3/CS\nCMD/DI\nVDD/VDD\nCLK/SCLK\nVSS/VSS\nDAT0/ D0\nDAT1/ X
 $EndSCHEMATC

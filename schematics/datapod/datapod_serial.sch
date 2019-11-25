@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:datapod-cache
+LIBS:_autosave-datapod-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -273,7 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 1850 7500 1850
 Text GLabel 7200 1750 0    50   Input ~ 0
-DRAIN_PROG
+RTS_PROG
 Wire Wire Line
 	7200 1750 7500 1750
 Wire Wire Line
