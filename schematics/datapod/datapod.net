@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/pedro/kicad_projects/datapod/_autosave-datapod.sch)
-    (date "Sun 24 Nov 2019 08:57:01 PM EST")
+    (date "Sat 30 Nov 2019 12:54:51 PM EST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1187,7 +1187,7 @@
       (node (ref Q3) (pin 4)))
     (net (code 7) (name ~RESET)
       (node (ref U1) (pin 1))
-      (node (ref C7) (pin 1))
+      (node (ref C7) (pin 2))
       (node (ref RN1) (pin 1)))
     (net (code 8) (name GND)
       (node (ref Q4) (pin 4))
@@ -1321,7 +1321,7 @@
     (net (code 24) (name DRAIN_PROG)
       (node (ref RN1) (pin 2))
       (node (ref Q4) (pin 6))
-      (node (ref C7) (pin 2)))
+      (node (ref C7) (pin 1)))
     (net (code 25) (name RTS_PROG)
       (node (ref J4) (pin 7))
       (node (ref RN1) (pin 9))

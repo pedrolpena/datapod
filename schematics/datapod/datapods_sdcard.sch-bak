@@ -278,10 +278,10 @@ Wire Wire Line
 Wire Wire Line
 	5250 4100 5250 5300
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5DDEF8A9
 P 4700 3800
-F 0 "R?" V 4650 3400 50  0000 C CNN
+F 0 "R5" V 4650 3400 50  0000 C CNN
 F 1 "3.3K" V 4650 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 3800 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 3800 50  0001 C CNN
@@ -293,10 +293,10 @@ $EndComp
 Wire Wire Line
 	4950 3800 4850 3800
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 5DDF39E5
 P 4700 4000
-F 0 "R?" V 4650 3600 50  0000 C CNN
+F 0 "R7" V 4650 3600 50  0000 C CNN
 F 1 "3.3K" V 4650 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 4000 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 4000 50  0001 C CNN
@@ -306,10 +306,10 @@ F 5 "A130544CT-ND" V 4700 4000 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5DDF3C58
 P 4700 4100
-F 0 "R?" V 4650 3700 50  0000 C CNN
+F 0 "R8" V 4650 3700 50  0000 C CNN
 F 1 "3.3K" V 4650 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 4100 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 4100 50  0001 C CNN
@@ -319,10 +319,10 @@ F 5 "A130544CT-ND" V 4700 4100 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 5DDF37A5
 P 4700 3900
-F 0 "R?" V 4650 3500 50  0000 C CNN
+F 0 "R6" V 4650 3500 50  0000 C CNN
 F 1 "3.3K" V 4650 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4630 3900 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-9&DocType=DS&DocLang=English" H 4700 3900 50  0001 C CNN
