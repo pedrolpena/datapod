@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 421)
     (zones 0)
     (modules 80)
@@ -2554,6 +2554,9 @@
     )
   )
 
+  (gr_text "AOML ABIISS Battery Board Rev 2." (at 344.293154 63.947848) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.375)))
+  )
   (target plus (at 108.708154 53.787848) (size 5) (width 0.05) (layer Edge.Cuts))
   (gr_line (start 381.745652 53.797848) (end 127.745652 53.797848) (layer Edge.Cuts) (width 0.08) (tstamp 5DD2D397))
   (gr_line (start 108.695652 326.847848) (end 108.695652 72.847848) (layer Edge.Cuts) (width 0.05) (tstamp 5DD2D070))
