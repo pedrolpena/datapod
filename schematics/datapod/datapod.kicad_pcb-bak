@@ -569,6 +569,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/../3d_models/Crystal ABM3-16.000MHZ-B2-T.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Package_SO:SSOP-20_3.9x8.7mm_P0.635mm (layer F.Cu) (tedit 5A4A2523) (tstamp 5DC1A663)

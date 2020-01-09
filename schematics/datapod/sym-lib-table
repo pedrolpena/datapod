@@ -2,4 +2,5 @@
   (lib (name LT1374CS8-5PBF)(type Legacy)(uri ${KIPRJMOD}/../libraries/LT1374CS8-5PBF.lib)(options "")(descr ""))
   (lib (name LT8609EMSETRPBF)(type Legacy)(uri ${KIPRJMOD}/../libraries/LT8609EMSETRPBF.lib)(options "")(descr ""))
   (lib (name Relays_user_made)(type Legacy)(uri ${KIPRJMOD}/../libraries/Relays_user_made.lib)(options "")(descr ""))
+  (lib (name datapod-rescue)(type Legacy)(uri ${KIPRJMOD}/datapod-rescue.lib)(options "")(descr ""))
 )

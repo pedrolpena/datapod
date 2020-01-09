@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:datapod-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -15,15 +14,15 @@ Comment3 "Receives data via an IR receiver , logs the data and then"
 Comment4 "Pedro Pena"
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-PU U1
+L datapod-rescue:ATmega328P-PU-MCU_Microchip_ATmega U1
 U 1 1 5DBAFE2C
 P 1600 2550
 F 0 "U1" H 1000 4500 50  0000 R CNN
 F 1 "ATmega328P-PU" H 1300 4300 50  0000 R CNN
 F 2 "Package_DIP:DIP-28_W7.62mm_SMDSocket_SmallPads" H 1600 2550 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1600 2550 50  0001 C CNN
-F 4 "Digikey" H 1600 2550 50  0001 C CNN "Vendor"
-F 5 "110-47-328-41-105000 " H 1600 2550 50  0001 C CNN "Part#"
+F 4 "microchip" H 1600 2550 50  0001 C CNN "Vendor"
+F 5 "110-47-328-41-105000 " H 1600 2550 50  0001 C CNN "Value2"
 F 6 "https://www.digikey.com/products/en?mpart=110-47-328-41-105000&v=54" H 1600 2550 50  0001 C CNN "Datasheet2"
 	1    1600 2550
 	1    0    0    -1  
@@ -38,7 +37,7 @@ F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_HandSoldering" H 4
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238&lang=en" H 4200 2150 50  0001 C CNN
 F 4 "Digikey" H 4200 2150 50  0001 C CNN "Vendor"
 F 5 "https://www.digikey.com/product-detail/en/epson/FA-238-16.0000MB-C3/SER3686DKR-ND/2403540" H 4200 2150 50  0001 C CNN "extra"
-F 6 "SER3686DKR-ND" H 4200 2150 50  0001 C CNN "Part#"
+F 6 "SER3686DKR-ND" H 4200 2150 50  0001 C CNN "part#"
 	1    4200 2150
 	0    -1   -1   0   
 $EndComp
@@ -48,24 +47,11 @@ U 1 1 5DBE06A7
 P 4200 1550
 F 0 "C1" H 4300 1800 50  0000 L CNN
 F 1 "20pF" H 4300 1700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 4238 1400 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0335C1HR22WB01-01.pdf" H 4200 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4238 1400 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf" H 4200 1550 50  0001 C CNN
 F 4 "Digikey" H 4200 1550 50  0001 C CNN "Vendor"
-F 5 " GJM0335C1HR22WB01D" H 4200 1550 50  0001 C CNN "Part#"
+F 5 "399-9326-1-ND" H 4200 1550 50  0001 C CNN "part#"
 	1    4200 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5DBE647B
-P 4200 2750
-F 0 "C2" H 4315 2796 50  0000 L CNN
-F 1 "20pF" H 4315 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 4238 2600 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0335C1HR22WB01-01.pdf" H 4200 2750 50  0001 C CNN
-F 4 "Digikey" H 4200 2750 50  0001 C CNN "Vendor"
-F 5 " GJM0335C1HR22WB01D" H 4200 2750 50  0001 C CNN "Part#"
-	1    4200 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -82,10 +68,10 @@ F 5 "OSOPT-10KACT-ND " H 4000 6300 50  0001 C CNN "Part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR03
+L power:GND #PWR0101
 U 1 1 5DC66802
 P 3850 2150
-F 0 "#PWR03" H 3850 1900 50  0001 C CNN
+F 0 "#PWR0101" H 3850 1900 50  0001 C CNN
 F 1 "GND" H 3855 1977 50  0000 C CNN
 F 2 "" H 3850 2150 50  0001 C CNN
 F 3 "" H 3850 2150 50  0001 C CNN
@@ -93,10 +79,10 @@ F 3 "" H 3850 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L power:GND #PWR0102
 U 1 1 5DC67152
 P 4600 2150
-F 0 "#PWR04" H 4600 1900 50  0001 C CNN
+F 0 "#PWR0102" H 4600 1900 50  0001 C CNN
 F 1 "GND" H 4605 1977 50  0000 C CNN
 F 2 "" H 4600 2150 50  0001 C CNN
 F 3 "" H 4600 2150 50  0001 C CNN
@@ -108,10 +94,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 2150 3850 2150
 $Comp
-L power:GND #PWR05
+L power:GND #PWR0103
 U 1 1 5DC89AE2
 P 4200 3050
-F 0 "#PWR05" H 4200 2800 50  0001 C CNN
+F 0 "#PWR0103" H 4200 2800 50  0001 C CNN
 F 1 "GND" H 4205 2877 50  0000 C CNN
 F 2 "" H 4200 3050 50  0001 C CNN
 F 3 "" H 4200 3050 50  0001 C CNN
@@ -119,10 +105,10 @@ F 3 "" H 4200 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L power:GND #PWR0104
 U 1 1 5DC8A1B9
 P 3950 1400
-F 0 "#PWR02" H 3950 1150 50  0001 C CNN
+F 0 "#PWR0104" H 3950 1150 50  0001 C CNN
 F 1 "GND" H 3955 1227 50  0000 C CNN
 F 2 "" H 3950 1400 50  0001 C CNN
 F 3 "" H 3950 1400 50  0001 C CNN
@@ -139,10 +125,10 @@ Wire Wire Line
 	4200 2300 4200 2600
 Connection ~ 4200 1700
 $Comp
-L power:GND #PWR08
+L power:GND #PWR0105
 U 1 1 5DCB2EF6
 P 4550 6750
-F 0 "#PWR08" H 4550 6500 50  0001 C CNN
+F 0 "#PWR0105" H 4550 6500 50  0001 C CNN
 F 1 "GND" H 4555 6577 50  0000 C CNN
 F 2 "" H 4550 6750 50  0001 C CNN
 F 3 "" H 4550 6750 50  0001 C CNN
@@ -176,10 +162,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 6000 4550 6000
 $Comp
-L power:+5V #PWR07
+L power:+5V #PWR0106
 U 1 1 5DCB93CE
 P 4550 5550
-F 0 "#PWR07" H 4550 5400 50  0001 C CNN
+F 0 "#PWR0106" H 4550 5400 50  0001 C CNN
 F 1 "+5V" H 4565 5723 50  0000 C CNN
 F 2 "" H 4550 5550 50  0001 C CNN
 F 3 "" H 4550 5550 50  0001 C CNN
@@ -196,10 +182,10 @@ Wire Wire Line
 	4550 5900 4550 5800
 Connection ~ 4550 5800
 $Comp
-L power:+5V #PWR01
+L power:+5V #PWR0107
 U 1 1 5DC99875
 P 1650 900
-F 0 "#PWR01" H 1650 750 50  0001 C CNN
+F 0 "#PWR0107" H 1650 750 50  0001 C CNN
 F 1 "+5V" H 1665 1073 50  0000 C CNN
 F 2 "" H 1650 900 50  0001 C CNN
 F 3 "" H 1650 900 50  0001 C CNN
@@ -214,10 +200,10 @@ Connection ~ 1650 1050
 Wire Wire Line
 	1650 1050 1700 1050
 $Comp
-L power:GND #PWR06
+L power:GND #PWR0108
 U 1 1 5DCA0B51
 P 1600 4050
-F 0 "#PWR06" H 1600 3800 50  0001 C CNN
+F 0 "#PWR0108" H 1600 3800 50  0001 C CNN
 F 1 "GND" H 1605 3877 50  0000 C CNN
 F 2 "" H 1600 4050 50  0001 C CNN
 F 3 "" H 1600 4050 50  0001 C CNN
@@ -276,7 +262,6 @@ Wire Wire Line
 	3550 1950 3550 1700
 Wire Wire Line
 	3550 1700 4200 1700
-Connection ~ 4200 2600
 Wire Wire Line
 	2200 2050 3550 2050
 Wire Wire Line
@@ -354,6 +339,10 @@ Wire Wire Line
 Connection ~ 4550 6700
 Wire Wire Line
 	4200 6700 4550 6700
+Text GLabel 3600 6700 0    50   Input ~ 0
+VcR1
+Wire Wire Line
+	3600 6700 3800 6700
 Text GLabel 2450 1550 2    50   Input ~ 0
 MICRO_SD_CS
 Wire Wire Line
@@ -395,5 +384,18 @@ Wire Wire Line
 	4550 5900 4550 6000
 Connection ~ 4550 5900
 Connection ~ 4550 6000
-NoConn ~ 3800 6700
+$Comp
+L Device:C C2
+U 1 1 5DDB6B24
+P 4200 2750
+F 0 "C2" H 4300 3000 50  0000 L CNN
+F 1 "20pF" H 4300 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4238 2600 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf" H 4200 2750 50  0001 C CNN
+F 4 "Digikey" H 4200 2750 50  0001 C CNN "Vendor"
+F 5 "399-9326-1-ND" H 4200 2750 50  0001 C CNN "part#"
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 2600
 $EndSCHEMATC

@@ -228,7 +228,7 @@ F 3 "http://datasheets.avx.com/TCJ.pdf" H 4250 6450 50  0001 C CNN
 F 4 "Digikey" H 4250 6450 50  0001 C CNN "Vendor"
 F 5 " TCJP105M025R0500" H 4250 6450 50  0001 C CNN "Part#"
 	1    4250 6450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text GLabel 3850 6450 0    50   Input ~ 0
 ~RESET
