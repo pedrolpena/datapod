@@ -117,8 +117,6 @@ F 3 "" H 2900 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 3950 2900 4150
-Wire Wire Line
 	2100 1850 1950 1850
 Wire Wire Line
 	2100 2150 1950 2150
@@ -154,8 +152,6 @@ F 3 "" H 4200 2350 50  0001 C CNN
 	1    4200 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 2350 4200 2350
 Text GLabel 2100 2850 0    50   Input ~ 0
 MCU-TX
 Text GLabel 2100 3050 0    50   Input ~ 0
@@ -428,4 +424,21 @@ Wire Wire Line
 	1550 5650 1250 5650
 Wire Wire Line
 	4450 7350 4000 7350
+Wire Wire Line
+	4200 2350 4000 2350
+Wire Wire Line
+	2900 3950 2900 4150
+$Comp
+L power:+5V #PWR?
+U 1 1 5E291178
+P 3900 2600
+F 0 "#PWR?" H 3900 2450 50  0001 C CNN
+F 1 "+5V" H 3915 2773 50  0000 C CNN
+F 2 "" H 3900 2600 50  0001 C CNN
+F 3 "" H 3900 2600 50  0001 C CNN
+	1    3900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2850 3900 2600
 $EndSCHEMATC

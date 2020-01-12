@@ -204,7 +204,7 @@ Wire Wire Line
 	10050 2600 10300 2600
 Connection ~ 10300 2600
 Wire Wire Line
-	10300 2600 10300 2300
+	10300 2600 10300 2400
 Wire Wire Line
 	9750 2600 8950 2600
 Connection ~ 8950 2600
@@ -343,4 +343,31 @@ Wire Wire Line
 	1100 1150 650  1150
 Wire Wire Line
 	650  1150 650  1300
+$Comp
+L Connector:TestPoint_2Pole TP1
+U 1 1 5E26F000
+P 9300 950
+F 0 "TP1" H 9300 725 50  0000 C CNN
+F 1 "TestPoint_2Pole" H 9300 816 50  0000 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 9300 950 50  0001 C CNN
+F 3 "~" H 9300 950 50  0001 C CNN
+	1    9300 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 950  10150 950 
+Wire Wire Line
+	10150 950  10150 1350
+Wire Wire Line
+	10150 2400 10300 2400
+Connection ~ 10300 2400
+Wire Wire Line
+	10300 2400 10300 2300
+Wire Wire Line
+	9100 950  9100 1350
+Wire Wire Line
+	9100 1350 10150 1350
+Connection ~ 10150 1350
+Wire Wire Line
+	10150 1350 10150 2400
 $EndSCHEMATC

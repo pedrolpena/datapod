@@ -14,20 +14,6 @@ Comment3 "Receives data via an IR receiver , logs the data and then"
 Comment4 "Pedro Pena"
 $EndDescr
 $Comp
-L datapod-rescue:ATmega328P-PU-MCU_Microchip_ATmega U1
-U 1 1 5DBAFE2C
-P 1600 2550
-F 0 "U1" H 1000 4500 50  0000 R CNN
-F 1 "ATmega328P-PU" H 1300 4300 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm_SMDSocket_SmallPads" H 1600 2550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1600 2550 50  0001 C CNN
-F 4 "microchip" H 1600 2550 50  0001 C CNN "Vendor"
-F 5 "110-47-328-41-105000 " H 1600 2550 50  0001 C CNN "Value2"
-F 6 "https://www.digikey.com/products/en?mpart=110-47-328-41-105000&v=54" H 1600 2550 50  0001 C CNN "Datasheet2"
-	1    1600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal_GND24 Y1
 U 1 1 5DBDB233
 P 4200 2150
@@ -46,11 +32,11 @@ L Device:C C1
 U 1 1 5DBE06A7
 P 4200 1550
 F 0 "C1" H 4300 1800 50  0000 L CNN
-F 1 "20pF" H 4300 1700 50  0000 L CNN
+F 1 "22pF" H 4300 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4238 1400 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf" H 4200 1550 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf" H 4200 1550 50  0001 C CNN
 F 4 "Digikey" H 4200 1550 50  0001 C CNN "Vendor"
-F 5 "399-9326-1-ND" H 4200 1550 50  0001 C CNN "part#"
+F 5 "399-8165-1-ND" H 4200 1550 50  0001 C CNN "part#"
 	1    4200 1550
 	1    0    0    -1  
 $EndComp
@@ -192,13 +178,6 @@ F 3 "" H 1650 900 50  0001 C CNN
 	1    1650 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 1050 1650 1050
-Wire Wire Line
-	1650 900  1650 1050
-Connection ~ 1650 1050
-Wire Wire Line
-	1650 1050 1700 1050
 $Comp
 L power:GND #PWR0108
 U 1 1 5DCA0B51
@@ -339,10 +318,6 @@ Wire Wire Line
 Connection ~ 4550 6700
 Wire Wire Line
 	4200 6700 4550 6700
-Text GLabel 3600 6700 0    50   Input ~ 0
-VcR1
-Wire Wire Line
-	3600 6700 3800 6700
 Text GLabel 2450 1550 2    50   Input ~ 0
 MICRO_SD_CS
 Wire Wire Line
@@ -389,13 +364,142 @@ L Device:C C2
 U 1 1 5DDB6B24
 P 4200 2750
 F 0 "C2" H 4300 3000 50  0000 L CNN
-F 1 "20pF" H 4300 2900 50  0000 L CNN
+F 1 "22pF" H 4300 2900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4238 2600 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf" H 4200 2750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf" H 4200 2750 50  0001 C CNN
 F 4 "Digikey" H 4200 2750 50  0001 C CNN "Vendor"
-F 5 "399-9326-1-ND" H 4200 2750 50  0001 C CNN "part#"
+F 5 "399-8165-1-ND" H 4200 2750 50  0001 C CNN "part#"
 	1    4200 2750
 	1    0    0    -1  
 $EndComp
 Connection ~ 4200 2600
+NoConn ~ 3800 6700
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E1EDB2E
+P 3100 4800
+F 0 "H1" H 3200 4846 50  0000 L CNN
+F 1 "MountingHole" H 3200 4755 50  0000 L CNN
+F 2 "datapod:MountingHole_0.4_inches_Pad_Via" H 3100 4800 50  0001 C CNN
+F 3 "~" H 3100 4800 50  0001 C CNN
+	1    3100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-PU U1
+U 1 1 5DBAFE2C
+P 1600 2550
+F 0 "U1" H 1000 4500 50  0000 R CNN
+F 1 "ATmega328P-PU" H 1300 4300 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm_SMDSocket_SmallPads" H 1600 2550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1600 2550 50  0001 C CNN
+F 4 "microchip" H 1600 2550 50  0001 C CNN "Vendor"
+F 5 "110-47-328-41-105000 " H 1600 2550 50  0001 C CNN "Value2"
+F 6 "https://www.digikey.com/products/en?mpart=110-47-328-41-105000&v=54" H 1600 2550 50  0001 C CNN "Datasheet2"
+	1    1600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 900  1650 1050
+Wire Wire Line
+	1650 1050 1600 1050
+Wire Wire Line
+	1650 1050 1700 1050
+Connection ~ 1650 1050
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J9
+U 1 1 5E2206BC
+P 6300 1450
+F 0 "J9" H 6350 1767 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 6350 1676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 6300 1450 50  0001 C CNN
+F 3 "http://www.cnctech.us/pdfs/3020-XX-0300-00-TR.pdf" H 6300 1450 50  0001 C CNN
+F 4 "Digikey" H 6300 1450 50  0001 C CNN "Vendor"
+F 5 "1175-1864-ND" H 6300 1450 50  0001 C CNN "part#"
+	1    6300 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 1350 0    50   Input ~ 0
+MICRO_SD_MISO
+Text GLabel 5850 1450 0    50   Input ~ 0
+MICRO_SD_SCK
+Text GLabel 5850 1750 3    50   Input ~ 0
+~RESET
+Text GLabel 6800 1450 2    50   Input ~ 0
+MICRO_SD_MOSI
+Wire Wire Line
+	6100 1350 5850 1350
+Wire Wire Line
+	6100 1450 5850 1450
+Wire Wire Line
+	6600 1450 6800 1450
+Wire Wire Line
+	6100 1550 5850 1550
+Wire Wire Line
+	5850 1550 5850 1750
+$Comp
+L power:GND #PWR0110
+U 1 1 5E232FD1
+P 6800 1850
+F 0 "#PWR0110" H 6800 1600 50  0001 C CNN
+F 1 "GND" H 6805 1677 50  0000 C CNN
+F 2 "" H 6800 1850 50  0001 C CNN
+F 3 "" H 6800 1850 50  0001 C CNN
+	1    6800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1550 6800 1550
+Wire Wire Line
+	6800 1550 6800 1850
+$Comp
+L power:+5V #PWR0111
+U 1 1 5E236E01
+P 7000 1200
+F 0 "#PWR0111" H 7000 1050 50  0001 C CNN
+F 1 "+5V" H 7015 1373 50  0000 C CNN
+F 2 "" H 7000 1200 50  0001 C CNN
+F 3 "" H 7000 1200 50  0001 C CNN
+	1    7000 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1350 7000 1350
+Wire Wire Line
+	7000 1350 7000 1200
+Text Notes 6300 1850 0    50   ~ 0
+ICSP 
+$Comp
+L Connector:TestPoint_2Pole TP2
+U 1 1 5E27E889
+P 6400 3850
+F 0 "TP2" H 6400 4045 50  0000 C CNN
+F 1 "TestPoint_2Pole" H 6400 3954 50  0000 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 6400 3850 50  0001 C CNN
+F 3 "~" H 6400 3850 50  0001 C CNN
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E28008E
+P 6750 4300
+F 0 "#PWR02" H 6750 4050 50  0001 C CNN
+F 1 "GND" H 6755 4127 50  0000 C CNN
+F 2 "" H 6750 4300 50  0001 C CNN
+F 3 "" H 6750 4300 50  0001 C CNN
+	1    6750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3850 6750 4100
+Wire Wire Line
+	6200 3850 6200 4100
+Wire Wire Line
+	6200 4100 6750 4100
+Connection ~ 6750 4100
+Wire Wire Line
+	6750 4100 6750 4300
+Wire Wire Line
+	6600 3850 6750 3850
 $EndSCHEMATC

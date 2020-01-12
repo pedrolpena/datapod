@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L Device:R_US R1
 U 1 1 5E3B1F9A
-P 2000 3850
-F 0 "R1" H 2068 3896 50  0000 L CNN
-F 1 "100k, 1%" H 2068 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2040 3840 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2000 3850 50  0001 C CNN
-F 4 "Digikey" H 2000 3850 50  0001 C CNN "Vendor"
-F 5 "311-100KCRCT-ND" H 2000 3850 50  0001 C CNN "Part#"
-	1    2000 3850
+P 2000 4500
+F 0 "R1" H 2068 4546 50  0000 L CNN
+F 1 "100k, 1%" H 2068 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2040 4490 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2000 4500 50  0001 C CNN
+F 4 "Digikey" H 2000 4500 50  0001 C CNN "Vendor"
+F 5 "311-100KCRCT-ND" H 2000 4500 50  0001 C CNN "Part#"
+	1    2000 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -42,14 +42,14 @@ $EndComp
 $Comp
 L Device:R_US R2
 U 1 1 5E3B43B3
-P 3550 3900
-F 0 "R2" H 3618 3946 50  0000 L CNN
-F 1 "18.2k, 1%" H 3618 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3590 3890 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3550 3900 50  0001 C CNN
-F 4 "Digikey" H 3550 3900 50  0001 C CNN "Vendor"
-F 5 "311-18.2KCRCT-ND" H 3550 3900 50  0001 C CNN "Part#"
-	1    3550 3900
+P 3550 4550
+F 0 "R2" H 3618 4596 50  0000 L CNN
+F 1 "18.2k, 1%" H 3618 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3590 4540 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3550 4550 50  0001 C CNN
+F 4 "Digikey" H 3550 4550 50  0001 C CNN "Vendor"
+F 5 "311-18.2KCRCT-ND" H 3550 4550 50  0001 C CNN "Part#"
+	1    3550 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -120,14 +120,14 @@ $EndComp
 $Comp
 L Device:C C12
 U 1 1 5E3C17C7
-P 2900 3900
-F 0 "C12" H 3015 3946 50  0000 L CNN
-F 1 "1uF" H 3015 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2938 3750 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2900 3900 50  0001 C CNN
-F 4 "Digikey" H 2900 3900 50  0001 C CNN "Vendor"
-F 5 "311-1365-1-ND" H 2900 3900 50  0001 C CNN "Part#"
-	1    2900 3900
+P 2900 4550
+F 0 "C12" H 3015 4596 50  0000 L CNN
+F 1 "1uF" H 3015 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2938 4400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2900 4550 50  0001 C CNN
+F 4 "Digikey" H 2900 4550 50  0001 C CNN "Vendor"
+F 5 "311-1365-1-ND" H 2900 4550 50  0001 C CNN "Part#"
+	1    2900 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -163,8 +163,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 3300 2300 3300
 Connection ~ 3250 3300
-Wire Wire Line
-	2000 3300 2000 3700
 $Comp
 L power:+3V3 #PWR036
 U 1 1 5E3F8D06
@@ -181,21 +179,6 @@ Wire Wire Line
 Connection ~ 2000 3300
 Wire Wire Line
 	4150 3500 2900 3500
-Wire Wire Line
-	2900 3500 2900 3750
-Wire Wire Line
-	2000 4000 2000 4400
-Wire Wire Line
-	2000 4400 2900 4400
-Wire Wire Line
-	2900 4400 2900 4050
-Wire Wire Line
-	2900 4400 3550 4400
-Wire Wire Line
-	3550 4400 3550 4050
-Connection ~ 2900 4400
-Wire Wire Line
-	3550 3600 3550 3750
 Wire Wire Line
 	3550 3600 4150 3600
 NoConn ~ 4150 3700
@@ -281,7 +264,7 @@ Wire Wire Line
 	9350 3800 9350 4250
 Connection ~ 9350 4250
 Wire Wire Line
-	9350 2400 2000 2400
+	9350 2400 3150 2400
 Connection ~ 2000 2400
 Wire Wire Line
 	9350 2400 9350 3800
@@ -300,13 +283,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 2850 6600 2950
 Connection ~ 6750 2850
-Wire Wire Line
-	6750 3600 6800 3600
-Wire Wire Line
-	6800 3600 6800 4400
-Wire Wire Line
-	6800 4400 3550 4400
-Connection ~ 3550 4400
 $Comp
 L LT8609EMSETRPBF:LT8609EMSETRPBF U4
 U 1 1 5DC5E62C
@@ -324,4 +300,48 @@ F 9 "LT8609EMSE#TRPBFCT-ND" H 4975 4500 50  0001 C CNN "Part#"
 	1    4150 3300
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6750 3600
+Wire Wire Line
+	2000 3300 2000 4350
+Wire Wire Line
+	2000 4650 2000 4950
+Wire Wire Line
+	7000 4950 3550 4950
+Wire Wire Line
+	2900 4700 2900 4950
+Connection ~ 2900 4950
+Wire Wire Line
+	2900 4950 2000 4950
+Wire Wire Line
+	3550 4700 3550 4950
+Connection ~ 3550 4950
+Wire Wire Line
+	3550 4950 2900 4950
+Wire Wire Line
+	3550 3600 3550 4400
+Wire Wire Line
+	2900 3500 2900 4400
+$Comp
+L Connector:TestPoint_2Pole TP3
+U 1 1 5E2794A0
+P 2950 1700
+F 0 "TP3" H 2950 1895 50  0000 C CNN
+F 1 "TestPoint_2Pole" H 2950 1804 50  0000 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 2950 1700 50  0001 C CNN
+F 3 "~" H 2950 1700 50  0001 C CNN
+	1    2950 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1700 3150 2000
+Connection ~ 3150 2400
+Wire Wire Line
+	3150 2400 2000 2400
+Wire Wire Line
+	2750 1700 2750 2000
+Wire Wire Line
+	2750 2000 3150 2000
+Connection ~ 3150 2000
+Wire Wire Line
+	3150 2000 3150 2400
 $EndSCHEMATC
