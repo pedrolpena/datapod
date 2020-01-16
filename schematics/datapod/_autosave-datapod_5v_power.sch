@@ -178,7 +178,7 @@ F 1 "CMDSH-3" H 9900 2725 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9900 2600 50  0001 C CNN
 F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMDSH-3.PDF" H 9900 2600 50  0001 C CNN
 F 4 "Digikey" H 9900 2600 50  0001 C CNN "Vendor"
-F 5 "1514-CMDSH-3TRPBFREETR-ND" H 9900 2600 50  0001 C CNN "Part#"
+F 5 "1514-CMDSH-3TRPBFREECT-ND" H 9900 2600 50  0001 C CNN "Part#"
 	1    9900 2600
 	1    0    0    -1  
 $EndComp

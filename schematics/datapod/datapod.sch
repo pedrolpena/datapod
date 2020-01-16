@@ -211,14 +211,10 @@ Text GLabel 2450 3150 2    50   Input ~ 0
 MCU-TX
 Wire Wire Line
 	2450 3150 2200 3150
-Text GLabel 2450 3250 2    50   Input ~ 0
+Text GLabel 2450 2250 2    50   Input ~ 0
 MCU-VIRT-UART-RX
-Wire Wire Line
-	2450 3250 2200 3250
-Text GLabel 2450 3350 2    50   Input ~ 0
+Text GLabel 2450 2350 2    50   Input ~ 0
 MCU-SOFT-UART-TX
-Wire Wire Line
-	2450 3350 2200 3350
 Text GLabel 2450 3450 2    50   Input ~ 0
 RELAY1_ON
 Wire Wire Line
@@ -349,10 +345,6 @@ U 5E53AB58
 F0 "RTC SHEET" 50
 F1 "datapod_rtc.sch" 50
 $EndSheet
-NoConn ~ 2200 2250
-NoConn ~ 2200 2350
-NoConn ~ 2200 2450
-NoConn ~ 2200 2550
 Wire Wire Line
 	4550 6100 4550 6000
 Wire Wire Line
@@ -502,4 +494,40 @@ Wire Wire Line
 	6750 4100 6750 4300
 Wire Wire Line
 	6600 3850 6750 3850
+Wire Wire Line
+	2200 2250 2450 2250
+Wire Wire Line
+	2200 2350 2450 2350
+Text GLabel 2450 3250 2    50   Input ~ 0
+RTC_~INT~_SQW
+Wire Wire Line
+	2200 3250 2450 3250
+Wire Wire Line
+	2200 2450 2450 2450
+Text GLabel 2450 2550 2    50   Input ~ 0
+RS232_DRIVER_ON_OFF
+Wire Wire Line
+	2200 2550 2450 2550
+Text GLabel 2450 2450 2    50   Input ~ 0
+uSD_ON_OFF
+$Comp
+L Connector:TestPoint_2Pole TP4
+U 1 1 5E2A98CD
+P 3450 3350
+F 0 "TP4" H 3450 3545 50  0000 C CNN
+F 1 "TestPoint_2Pole" H 3450 3454 50  0000 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 3450 3350 50  0001 C CNN
+F 3 "~" H 3450 3350 50  0001 C CNN
+	1    3450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3350 3250 3350
+Wire Wire Line
+	3250 3350 3250 3550
+Wire Wire Line
+	3250 3550 3650 3550
+Wire Wire Line
+	3650 3550 3650 3350
+Connection ~ 3250 3350
 $EndSCHEMATC

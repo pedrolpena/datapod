@@ -63,7 +63,7 @@ $EndComp
 Wire Wire Line
 	5500 2950 5500 3400
 Wire Wire Line
-	5500 2950 7800 2950
+	5500 2950 7400 2950
 $Comp
 L power:GND #PWR050
 U 1 1 5E56ABA4
@@ -143,13 +143,8 @@ Connection ~ 4250 5100
 Connection ~ 4250 5200
 NoConn ~ 2600 5600
 NoConn ~ 2600 5700
-NoConn ~ 2600 5800
-NoConn ~ 2600 5900
 NoConn ~ 3000 5600
 NoConn ~ 3000 5700
-NoConn ~ 3000 5800
-NoConn ~ 3000 5900
-NoConn ~ 6000 3900
 NoConn ~ 6000 3600
 NoConn ~ 5000 4000
 $Comp
@@ -170,16 +165,73 @@ $EndComp
 NoConn ~ 3000 5500
 NoConn ~ 2600 5500
 NoConn ~ 2600 5400
-Wire Wire Line
-	4250 5200 4250 5700
-NoConn ~ 3000 5300
 NoConn ~ 3000 5400
 Text GLabel 2250 6000 0    50   Input ~ 0
 VcR1
-NoConn ~ 2600 5300
 Wire Wire Line
 	2250 6000 2600 6000
 Wire Wire Line
-	3000 6000 4250 6000
+	3000 6000 3950 6000
 Connection ~ 4250 6000
+Text GLabel 2300 5300 0    50   Input ~ 0
+RTC_~INT~_SQW
+Wire Wire Line
+	2300 5300 2600 5300
+Text GLabel 6450 3900 2    50   Input ~ 0
+RTC_~INT~_SQW
+Wire Wire Line
+	6000 3900 6450 3900
+$Comp
+L power:+5V #PWR05
+U 1 1 5E1F51D4
+P 3650 4850
+F 0 "#PWR05" H 3650 4700 50  0001 C CNN
+F 1 "+5V" H 3665 5023 50  0000 C CNN
+F 2 "" H 3650 4850 50  0001 C CNN
+F 3 "" H 3650 4850 50  0001 C CNN
+	1    3650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5200 4250 5700
+Wire Wire Line
+	3000 5300 3650 5300
+Wire Wire Line
+	3650 5300 3650 4850
+Text GLabel 2250 5800 0    50   Input ~ 0
+RS232_DRIVER_ON_OFF
+Wire Wire Line
+	2600 5900 2250 5900
+Wire Wire Line
+	3000 5900 3950 5900
+Wire Wire Line
+	3950 5900 3950 6000
+Connection ~ 3950 6000
+Wire Wire Line
+	3950 6000 4250 6000
+Text GLabel 2250 5900 0    50   Input ~ 0
+uSD_ON_OFF
+Wire Wire Line
+	2600 5800 2250 5800
+Wire Wire Line
+	3000 5800 3950 5800
+Wire Wire Line
+	3950 5800 3950 5900
+Connection ~ 3950 5900
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5E2CFE5E
+P 7400 2550
+F 0 "#FLG0109" H 7400 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 7400 2723 50  0000 C CNN
+F 2 "" H 7400 2550 50  0001 C CNN
+F 3 "~" H 7400 2550 50  0001 C CNN
+	1    7400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2550 7400 2950
+Connection ~ 7400 2950
+Wire Wire Line
+	7400 2950 7800 2950
 $EndSCHEMATC

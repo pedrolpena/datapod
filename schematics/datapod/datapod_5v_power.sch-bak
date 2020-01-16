@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 3050 10300 4600
 Wire Wire Line
-	10300 4600 7900 4600
+	10300 4600 9700 4600
 Wire Wire Line
 	1750 4600 1750 3250
 Wire Wire Line
@@ -174,11 +174,11 @@ L Device:D_Schottky D5
 U 1 1 5E43FA0D
 P 9900 2600
 F 0 "D5" H 9900 2816 50  0000 C CNN
-F 1 "1N914BWT" H 9900 2725 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-523" H 9900 2600 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/1N914BWT-D.pdf" H 9900 2600 50  0001 C CNN
+F 1 "CMDSH-3" H 9900 2725 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9900 2600 50  0001 C CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMDSH-3.PDF" H 9900 2600 50  0001 C CNN
 F 4 "Digikey" H 9900 2600 50  0001 C CNN "Vendor"
-F 5 "1N914BWTCT-ND" H 9900 2600 50  0001 C CNN "Part#"
+F 5 "1514-CMDSH-3TRPBFREETR-ND" H 9900 2600 50  0001 C CNN "Part#"
 	1    9900 2600
 	1    0    0    -1  
 $EndComp
@@ -288,10 +288,10 @@ AR Path="/5E14D46E/5E790D06" Ref="J?"  Part="1"
 AR Path="/5E423883/5E790D06" Ref="J7"  Part="1" 
 F 0 "J7" H 1350 1267 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 1350 1176 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Sr_42819-22XX_1x02_P10.00mm_Vertical" H 1300 1050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-42815-001.pdf" H 1300 1050 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 1300 1050 50  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF" H 1300 1050 50  0001 C CNN
 F 4 "Digikey" H 1300 1050 50  0001 C CNN "Vendor"
-F 5 "WM11908-ND" H 1300 1050 50  0001 C CNN "Part#"
+F 5 "WM15036-ND" H 1300 1050 50  0001 C CNN "Part#"
 	1    1300 1050
 	1    0    0    -1  
 $EndComp
@@ -307,7 +307,7 @@ F 3 "" H 650 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 1050 650  1050
+	1100 1050 850  1050
 Wire Wire Line
 	650  1050 650  900 
 $Comp
@@ -370,4 +370,38 @@ Wire Wire Line
 Connection ~ 10150 1350
 Wire Wire Line
 	10150 1350 10150 2400
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E2B87AE
+P 9700 5150
+F 0 "#FLG0101" H 9700 5225 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 5323 50  0000 C CNN
+F 2 "" H 9700 5150 50  0001 C CNN
+F 3 "~" H 9700 5150 50  0001 C CNN
+	1    9700 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 5150 9700 4600
+Connection ~ 9700 4600
+Wire Wire Line
+	9700 4600 7900 4600
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5E2D75B8
+P 1750 650
+F 0 "#FLG0106" H 1750 725 50  0001 C CNN
+F 1 "PWR_FLAG" V 1750 778 50  0000 L CNN
+F 2 "" H 1750 650 50  0001 C CNN
+F 3 "~" H 1750 650 50  0001 C CNN
+	1    1750 650 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 650  850  650 
+Wire Wire Line
+	850  650  850  1050
+Connection ~ 850  1050
+Wire Wire Line
+	850  1050 650  1050
 $EndSCHEMATC
