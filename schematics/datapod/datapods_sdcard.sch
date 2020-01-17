@@ -274,9 +274,9 @@ P 4950 1800
 F 0 "R5" H 5020 1846 50  0000 L CNN
 F 1 "10K" H 5020 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4880 1800 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/28796/mcw0406atpro.pdf" H 4950 1800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4950 1800 50  0001 C CNN
 F 4 "Digikey" H 4950 1800 50  0001 C CNN "Vendor"
-F 5 "749-1125-6-ND" H 4950 1800 50  0001 C CNN "part#"
+F 5 "311-10KERCT-ND" H 4950 1800 50  0001 C CNN "part#"
 	1    4950 1800
 	1    0    0    -1  
 $EndComp
