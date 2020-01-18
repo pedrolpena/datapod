@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/pedro/kicad_projects/datapod/schematics/datapod_IR_splitter/datapod_IR_splitter.sch</source>
+    <date>Sat 18 Jan 2020 02:30:27 PM EST</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Datapod IR splitter</title>
+        <company>AOML NOAA PHOD</company>
+        <rev>1</rev>
+        <date>2020-01-18</date>
+        <source>datapod_IR_splitter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Pedro Pena"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>DB9_Male_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles</footprint>
+      <datasheet>http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf</datasheet>
+      <fields>
+        <field name="Part#">609-5184-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Male_MountingHoles" description="9-pin male D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23CB39</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DB9_Female_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm</footprint>
+      <datasheet>http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf</datasheet>
+      <fields>
+        <field name="Part#">AE10921-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Female_MountingHoles" description="9-pin female D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23DC2D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>DB9_Male_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles</footprint>
+      <datasheet>http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf</datasheet>
+      <fields>
+        <field name="Part#">609-5184-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Male_MountingHoles" description="9-pin male D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2444E6</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>DB9_Male_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles</footprint>
+      <datasheet>http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf</datasheet>
+      <fields>
+        <field name="Part#">609-5184-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Male_MountingHoles" description="9-pin male D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E24523F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>DB9_Male_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles</footprint>
+      <datasheet>http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf</datasheet>
+      <fields>
+        <field name="Part#">609-5184-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="Connector" part="DB9_Male_MountingHoles" description="9-pin male D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E245C31</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E28F7CA</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E290FE9</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2911EC</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E291425</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DB9_Female_MountingHoles">
+      <description>9-pin female D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Female_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Male_MountingHoles">
+      <description>9-pin male D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Male_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="2" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="3" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="15" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="16" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="18" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="19" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="21" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J5-Pad9)">
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="24" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad7)">
+      <node ref="J3" pin="7"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="26" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad0)">
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="0"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="0"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="0"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="0"/>
+      <node ref="J3" pin="0"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad4)">
+      <node ref="J3" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+  </nets>
+</export>

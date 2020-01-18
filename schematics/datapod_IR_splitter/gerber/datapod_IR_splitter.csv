@@ -1,0 +1,10 @@
+Reference, Value, Footprint, Datasheet, Part#, Vendor
+"J2","DB9_Male_MountingHoles","Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles","http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf","609-5184-ND","digikey"
+"J1","DB9_Female_MountingHoles","Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm","http://www.assmann-wsw.com/fileadmin/datasheets/ASS_4888_CO.pdf","AE10921-ND","digikey"
+"J3","DB9_Male_MountingHoles","Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles","http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf","609-5184-ND","digikey"
+"J4","DB9_Male_MountingHoles","Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles","http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf","609-5184-ND","digikey"
+"J5","DB9_Male_MountingHoles","Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles","http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10130912.pdf","609-5184-ND","digikey"
+"H1","MountingHole","MountingHole:MountingHole_4.5mm_Pad","~"
+"H2","MountingHole","MountingHole:MountingHole_4.5mm_Pad","~"
+"H3","MountingHole","MountingHole:MountingHole_4.5mm_Pad","~"
+"H4","MountingHole","MountingHole:MountingHole_4.5mm_Pad","~"
