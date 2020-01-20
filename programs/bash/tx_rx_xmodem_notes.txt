@@ -1,0 +1,8 @@
+#configure port
+stty -F /dev/ttyUSB0 9600
+
+#send on ttyUSB0
+echo -ne "1" > /dev/ttyUSB0
+
+#receive with xmodem
+rx FILENAME < /dev/ttyUSB0 > /dev/ttyUSB0
