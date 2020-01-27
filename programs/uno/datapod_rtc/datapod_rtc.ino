@@ -7,6 +7,7 @@
 #include <SoftwareSerial.h>
 #include <DS3232RTC.h>
 #include <Wire.h>
+#include <Streaming.h>
 #include <avr/sleep.h>
 
 
@@ -21,12 +22,14 @@
 #define IR220L_ON_1  8 //Pin 14 on the atmega328p
 #define IR220L_ON_2  9 //Pin 15 on the atmega328p
 
-#define uSD_ON A2      //Pin 25 on the atmega328p
+#define uSD_ON_OFF A2      //Pin 25 on the atmega328p
+
+#define RS232_DRIVER_ON_OFF A3 //Pin 26 on the atmega328p
 
 //#define INT_PIN 2
 // pin definitions
-const uint8_t RTC_INT_PIN(2);
-//#define RTC_INT_PIN 2
+//const uint8_t RTC_INT_PIN(2);
+#define RTC_INT_PIN 2
 char timestamp[32];
 int wakeTime = 0;
 bool isSleeping = false;
@@ -76,37 +79,29 @@ void setup() {
   pinMode(RELAY_PIN2_OFF, OUTPUT);
   pinMode(IR220L_ON_1 , OUTPUT);
   pinMode(IR220L_ON_2, OUTPUT);
-  pinMode(uSD_ON, OUTPUT);
-
+  pinMode(uSD_ON_OFF, OUTPUT);
+  pinMode(RTC_INT_PIN, INPUT_PULLUP);
+  pinMode(RS232_DRIVER_ON_OFF, OUTPUT);
 
 
 
   //enable sdcard
-  digitalWrite(uSD_ON, HIGH);
+  digitalWrite(uSD_ON_OFF, HIGH);
 
   ADCSRA = 0;
 
-  // turn off everything we can
-  //power_adc_disable ();
-
-
-  //enable MAX232 and IR transceiver
+  //enable IR transceiver
   digitalWrite(IR220L_ON_1, LOW);
   digitalWrite(IR220L_ON_2, LOW);
 
+  //enable MAX232
+
+  digitalWrite(RS232_DRIVER_ON_OFF, HIGH);
 
 
   // enable I2C bus
   Wire.begin();
-  //    Clock.setYear(19);
-  //    Clock.setMonth(11);
-  //    Clock.setDate(22);
-  //    Clock.setDoW(5);
-  //    Clock.setHour(16);
-  //    Clock.setMinute(46);
-  //    Clock.setSecond(00);
 
-  //pinMode(wakeUpPin, INPUT);
 
   //Initialize the hardware UART
   Serial.begin(9600);
@@ -123,11 +118,9 @@ void setup() {
 
 
   //Initialize the SPI interface for the micro SD card.
-  //SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0));
+
   SPI.begin();
-  //SPI.setClockDivider(SPI_CLOCK_DIV8);
-  //SPI.beginTransaction(SPISettings(125000, MSBFIRST, SPI_MODE0));
-  //pinMode(10, OUTPUT);
+
 
   Serial.print(F("Initializing SD card..."));
 
@@ -138,59 +131,28 @@ void setup() {
 
   }
   Serial.println(F("initialization done."));
-  //Serial.println (digitalPinToInterrupt(2));
-  //Serial.println(F("Going into idle mode"));
-
-  //delay(50);
-  // LowPower.idle(SLEEP_8S, ADC_OFF, TIMER2_OFF, TIMER1_OFF, TIMER0_OFF, SPI_OFF, USART0_OFF, TWI_OFF);
 
 
-  //    RTC.alarm( ALARM_1 );
-  //    RTC.alarmInterrupt( ALARM_1, true );
-  //    RTC.setAlarm( ALM1_EVERY_SECOND, 0, 0, 0, 0 );
 
 
-  // initialize the alarms to known values, clear the alarm flags, clear the alarm interrupt flags
-  RTC.setAlarm(ALM1_MATCH_DATE, 0, 0, 0, 1);
-  RTC.setAlarm(ALM2_MATCH_DATE, 0, 0, 0, 1);
-  RTC.alarm(ALARM_1);
-  RTC.alarm(ALARM_2);
+  RTC.squareWave(SQWAVE_NONE);
+  attachInterrupt(digitalPinToInterrupt(RTC_INT_PIN), wakeUp, FALLING);
+  //Set an alarm at every 20th second of every minute.
+  // RTC.setAlarm(ALM1_MATCH_SECONDS, 20, 0, 0, 1);    //daydate parameter should be between 1 and 7
+  RTC.alarm(ALARM_1);                   //ensure RTC interrupt flag is cleared
   RTC.alarmInterrupt(ALARM_1, false);
-  RTC.alarmInterrupt(ALARM_2, false);
-  RTC.squareWave(SQWAVE_NONE);
 
+  //Set an alarm every minute.
+  RTC.setAlarm(ALM2_EVERY_MINUTE, 0, 0, 0, 1);    //daydate parameter should be between 1 and 7
+  RTC.alarm(ALARM_2);                   //ensure RTC interrupt flag is cleared
+  RTC.alarmInterrupt(ALARM_2, true);
 
-
-  // set Alarm 1 to occur at 5 seconds after every minute
-  RTC.setAlarm(ALM1_MATCH_SECONDS, 5, 0, 0, 0);
-  // clear the alarm flag
-  RTC.alarm(ALARM_1);
-  // configure the INT/SQW pin for "interrupt" operation (disable square wave output)
-  RTC.squareWave(SQWAVE_NONE);
-  // enable interrupt output for Alarm 1
-  RTC.alarmInterrupt(ALARM_1, true);
-
-  //
-  //
-  //    // set Alarm 1 to occur at 5 seconds after every minute
-  //    RTC.setAlarm(ALM1_MATCH_SECONDS, 5, 0, 0, 1);
-  //    // clear the alarm flag
-  //    RTC.alarm(ALARM_1);
-
-  //set_sleep_mode (SLEEP_MODE_PWR_DOWN);
-  //sleep_enable();
-  //sleep_cpu();
-
-
-  //enable pin as ISR pin for RTC
-
-  //pinMode(A0, INPUT);
-  //pinMode(RTC_INT_PIN, INPUT_PULLUP);
-  //delay(1000);
-
-
-  //attachInterrupt(digitalPinToInterrupt(RTC_INT_PIN), wakeUp, FALLING);
-  //RTC.squareWave(SQWAVE_1_HZ);
+  Serial << "Going to sleep" << endl;
+  printTime(RTC.get());
+  delay(200);
+  set_sleep_mode (SLEEP_MODE_PWR_DOWN);
+  sleep_enable();
+  sleep_cpu();
 
 
 }//end setup
@@ -270,74 +232,11 @@ void switchRelay(int num, bool enable) {
 
 }//end function
 
-// A handler for the pin interrupt.
-void wakeUp()
-{
-  //wakeTime ++;
-  // cancel sleep as a precaution
-  //sleep_disable();
-  // noInterrupts ();
-  // must do this as the pin will probably stay low for a while
-  //detachInterrupt (digitalPinToInterrupt (RTC_INT_PIN));
-  if (isSleeping) {
-
-    hello();
-  }
-}
-
-void hello() {
-
-    //noInterrupts ();
-    detachInterrupt (digitalPinToInterrupt (RTC_INT_PIN));
-    sleep_disable();
-    isSleeping = false;
-  printTime(RTC.get());
-  RTC.alarm(ALARM_1);
-  digitalWrite(IR220L_ON_1, LOW);
-  digitalWrite(IR220L_ON_2, LOW);
-
-//  power_adc_enable(); // ADC converter
-//  power_spi_enable(); // SPI
-//  power_usart0_enable(); // Serial (USART)
-//  power_timer0_enable(); // Timer 0
-//  power_timer1_enable(); // Timer 1
-//  power_timer2_enable(); // Timer 2
-//  power_twi_enable(); // TWI (I2C
-  // enable I2C bus
- // Wire.begin();
-  
+volatile boolean alarmIsrWasCalled = false;
 
 
-  //clearClockTrigger();
- 
-
-  Serial.print("Interrrupt detected\n");
-//delay(1000);
-
-  //if (RTC.alarm(ALARM_1)){
-  //  Serial.write("Interrrupt detected on RTC\n");
-  //   formatTime(timestamp, RTC.get());   // get current RTC time
-  //  Serial.write(timestamp,strlen(timestamp));
-  //  Serial.print("\n");
-  //
-  //  }//end if
-
-  //noInterrupts();
-  //RTC.squareWave(SQWAVE_NONE);
-  //Serial.print("Interrrupt detected on RTC \n");
-  //printTime(hour(RTC.get()));
 
 
-  //  formatTime(timestamp, RTC.get());   // get current RTC time
-
-  //  Serial.write(timestamp, strlen(timestamp));
-  //  Serial.print("\n");
-  //  delay(300);
-  //interrupts();
-  //attachInterrupt(digitalPinToInterrupt(RTC_INT_PIN), wakeUp, FALLING);
-  //RTC.squareWave(SQWAVE_1_HZ);
-
-}
 
 /*=================================================
    End user functions here
@@ -352,16 +251,8 @@ void hello() {
   This is the main loop. place all code here
 */
 void loop() {
-  if (wakeTime >= 4 ) {
-    hello();
-    wakeTime = 0;
-  }
 
 
-
-  //LowPower.idle(SLEEP_8S, ADC_OFF, TIMER2_OFF, TIMER1_OFF, TIMER0_OFF, SPI_OFF, USART0_OFF, TWI_OFF);
-  //LowPower.sleep();
-  //LowPower.powerDown(SLEEP_2S, ADC_OFF, BOD_OFF);
   // read from port 1, send to port 0:
   if (Serial.available()) {
     char inByte = (char)Serial.read();
@@ -397,14 +288,6 @@ void loop() {
         switchRelay(2, false);
         appendToDataFile((char*)"Relay 2 off\n");
         break;
-      //      case '3':
-      //        switchRelay(3, true);
-      //        appendToDataFile((char*)"Relay 3 on\n");
-      //        break;
-      //      case 'e':
-      //        switchRelay(3, false);
-      //        appendToDataFile((char*)"Relay 3 off\n");
-      //        break;
 
 
       case '+':
@@ -429,7 +312,7 @@ void loop() {
         break;
 
       case 'u' :
-        digitalWrite(uSD_ON, HIGH);
+        digitalWrite(uSD_ON_OFF, HIGH);
         Serial.print(F("Initializing SD card..."));
 
         //If the th SD card init fails, it stays in a loop.
@@ -442,7 +325,7 @@ void loop() {
         break;
 
       case 'j' :
-        digitalWrite(uSD_ON, LOW);
+        digitalWrite(uSD_ON_OFF, LOW);
         break;
 
 
@@ -450,34 +333,28 @@ void loop() {
         ;
 
 
-        digitalWrite(uSD_ON, LOW);
+        digitalWrite(uSD_ON_OFF, LOW);
 
         digitalWrite(IR220L_ON_1, HIGH);
         digitalWrite(IR220L_ON_2, HIGH);
         //clearClockTrigger();
 
-
-        delay(1000);
-
         attachInterrupt(digitalPinToInterrupt(RTC_INT_PIN), wakeUp, FALLING);
+
 
         isSleeping = true;
 
-
+        Serial << "Going to sleep" << endl;
+        printTime(RTC.get());
+        delay(200);
         set_sleep_mode (SLEEP_MODE_PWR_DOWN);
         sleep_enable();
-//        MCUCR = bit (BODS) | bit (BODSE);  // turn on brown-out enable select
-//        MCUCR = bit (BODS);        // this must be done within 4 clock cycles of above
-//        power_adc_disable(); // ADC converter
-//        power_spi_disable(); // SPI
-//        power_usart0_disable();// Serial (USART)
-//        power_timer0_disable();// Timer 0
-//        power_timer1_disable();// Timer 1
-//        power_timer2_disable();// Timer 2
-//        power_twi_disable(); // TWI (I2C)
-        //interrupts();
-
-RTC.alarm(ALARM_1);
+        digitalWrite(RS232_DRIVER_ON_OFF, LOW);
+        //
+        RTC.alarm(ALARM_1);                   //ensure RTC interrupt flag is cleared
+        RTC.alarmInterrupt(ALARM_1, false);
+        RTC.alarm(ALARM_2);
+        //        RTC.alarm(ALARM_1);
         sleep_cpu();
 
         break;
@@ -487,29 +364,6 @@ RTC.alarm(ALARM_1);
         formatTime(timestamp, RTC.get());   // get current RTC time
         Serial.write(timestamp, strlen(timestamp));
         Serial.print("\n");
-
-
-
-        //      bool h12;
-        //      bool PM;
-        //      bool Century;
-        //
-        //      time_t myTime;
-        //      myTime = Clock.get();
-
-
-
-        //      Serial.print(Clock.getYear(), DEC);
-        //      Serial.print("-");
-        //      Serial.print(Clock.getMonth(Century), DEC);
-        //      Serial.print("-");
-        //      Serial.print(Clock.getDate(), DEC);
-        //      Serial.print(" ");
-        //      Serial.print(Clock.getHour(h12, PM), DEC); //24-hr
-        //      Serial.print(":");
-        //      Serial.print(Clock.getMinute(), DEC);
-        //      Serial.print(":");
-        //      Serial.println(Clock.getSecond(), DEC);
 
         break;
 
@@ -521,10 +375,86 @@ RTC.alarm(ALARM_1);
 
   //LowPower.powerDown(SLEEP_FOREVER, ADC_OFF, BOD_OFF);
 
+  if (alarmIsrWasCalled) {
+    sleep_disable();
+    detachInterrupt (digitalPinToInterrupt (RTC_INT_PIN));
 
+    if (RTC.alarm(ALARM_1)) {
+      printDateTime( RTC.get() );
+      Serial << " --> Alarm 1!" << endl;
+    }
+    if (RTC.alarm(ALARM_2)) {
+      printDateTime( RTC.get() );
+      Serial << " --> Alarm 2!" << endl;
+    }
+    alarmIsrWasCalled = false;
+    hello();
+
+  }//end if
 }// end loop
 
 
+
+// A handler for the pin interrupt.
+void wakeUp()
+{
+  alarmIsrWasCalled = true;
+}
+
+void hello() {
+
+  //noInterrupts ();
+  //detachInterrupt (digitalPinToInterrupt (RTC_INT_PIN));
+  //  sleep_disable();
+  //  isSleeping = false;
+  digitalWrite(RS232_DRIVER_ON_OFF, HIGH);
+  printTime(RTC.get());
+  //RTC.alarm(ALARM_1);
+  digitalWrite(IR220L_ON_1, LOW);
+  digitalWrite(IR220L_ON_2, LOW);
+
+  //  power_adc_enable(); // ADC converter
+  //  power_spi_enable(); // SPI
+  //  power_usart0_enable(); // Serial (USART)
+  //  power_timer0_enable(); // Timer 0
+  //  power_timer1_enable(); // Timer 1
+  //  power_timer2_enable(); // Timer 2
+  //  power_twi_enable(); // TWI (I2C
+  // enable I2C bus
+  // Wire.begin();
+
+
+
+  //clearClockTrigger();
+
+
+  Serial.print("Interrrupt detected\n");
+  //delay(1000);
+
+  //if (RTC.alarm(ALARM_1)){
+  //  Serial.write("Interrrupt detected on RTC\n");
+  //   formatTime(timestamp, RTC.get());   // get current RTC time
+  //  Serial.write(timestamp,strlen(timestamp));
+  //  Serial.print("\n");
+  //
+  //  }//end if
+
+  //noInterrupts();
+  //RTC.squareWave(SQWAVE_NONE);
+  //Serial.print("Interrrupt detected on RTC \n");
+  //printTime(hour(RTC.get()));
+
+
+  //  formatTime(timestamp, RTC.get());   // get current RTC time
+
+  //  Serial.write(timestamp, strlen(timestamp));
+  //  Serial.print("\n");
+  //  delay(300);
+  //interrupts();
+  //attachInterrupt(digitalPinToInterrupt(RTC_INT_PIN), wakeUp, FALLING);
+  //RTC.squareWave(SQWAVE_1_HZ);
+
+}
 
 
 // format a time_t value, return the formatted string in buf (must be at least 25 bytes)
@@ -547,7 +477,14 @@ void printTime(time_t t)
   Serial.println(buf);
 }
 
-
+void printDateTime(time_t t)
+{
+  Serial << ((day(t) < 10) ? "0" : "") << _DEC(day(t)) << ' ';
+  Serial << monthShortStr(month(t)) << " " << _DEC(year(t)) << ' ';
+  Serial << ((hour(t) < 10) ? "0" : "") << _DEC(hour(t)) << ':';
+  Serial << ((minute(t) < 10) ? "0" : "") << _DEC(minute(t)) << ':';
+  Serial << ((second(t) < 10) ? "0" : "") << _DEC(second(t));
+}
 void clearClockTrigger()
 {
   Wire.beginTransmission(0x68);   //Tell devices on the bus we are talking to the DS3231
