@@ -1,4 +1,4 @@
-### Module positions - created on Fri 17 Jan 2020 07:25:12 AM EST ###
+### Module positions - created on Tue 04 Feb 2020 04:57:35 PM EST ###
 ### Printed by Pcbnew version kicad 5.1.5-52549c5~84~ubuntu18.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -31,8 +31,8 @@ D6        MBRS340              D_SMC                                            
 J6        Micro_SD_Card        microSD_HC_Wuerth_693072010801                                153.6700   -58.4200  124.0000  top
 J8        Conn_01x02_Female    BatteryHolder_Keystone_1058_1x2032                             48.2600   -59.6900  236.0000  top
 J9        Conn_02x03_Odd_Even  PinHeader_2x03_P2.54mm_Vertical_SMD                           125.0950  -102.8700    0.0000  top
-K1        DS2E-SL2-DC5V        DIP-16_W7.62mm_SMDSocket_SmallPads                            100.3300  -160.0200  180.0000  top
-K2        DS2E-SL2-DC5V        DIP-16_W7.62mm_SMDSocket_SmallPads                            100.3300   -33.0200    0.0000  top
+K1        DS2E-SL2-DC5V        DIP-16_W8.89mm_SMDSocket_LongPads                             100.3300  -160.0200  180.0000  top
+K2        DS2E-SL2-DC5V        DIP-16_W8.89mm_SMDSocket_LongPads                             100.3300   -33.0200    0.0000  top
 L1        2.2uH                L_0805_2012Metric_Pad1.15x1.40mm_HandSolder                    50.2920  -114.8080    0.0000  top
 L2        10uH                 L_Sumida_CDMC6D28_7.25x6.5mm                                   78.1050   -70.3020  270.0000  top
 Q1        FDG1024NZ            SOT-363_SC-70-6                                               113.0300  -163.8300   90.0000  top

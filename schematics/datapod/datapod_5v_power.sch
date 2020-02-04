@@ -331,11 +331,8 @@ F 0 "U5" H 6000 3415 50  0000 C CNN
 F 1 "LT1374CS8-5PBF" H 6000 3324 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 4725 4450 50  0001 L BNN
 F 3 "Linear Technology" H 4700 3875 50  0001 L BNN
-F 4 "SO-8 Linear Technology" H 4650 4050 50  0001 L BNN "Field4"
-F 5 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT1374CS8-5-PBF/LT1374CS8-5-PBF-ND/888771?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 4675 3600 50  0001 L BNN "Field5"
-F 6 "LT1374 - 4.5A, 500kHz Step-Down Switching Regulator" H 4675 3725 50  0001 L BNN "Field6"
-F 7 "LT1374CS8-5#PBF" H 4700 4175 50  0001 L BNN "Field7"
-F 8 "LT1374CS8-5#PBF-ND" H 4725 4300 50  0001 L BNN "Part#"
+F 4 "LT1374CS8-5#PBF-ND" H 4725 4300 50  0001 L BNN "Part#"
+F 5 "Digikey" H 4400 3050 50  0001 C CNN "Vendor"
 	1    4400 3050
 	1    0    0    -1  
 $EndComp
@@ -351,6 +348,7 @@ F 0 "TP1" H 9300 725 50  0000 C CNN
 F 1 "TestPoint_2Pole" H 9300 816 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 9300 950 50  0001 C CNN
 F 3 "~" H 9300 950 50  0001 C CNN
+F 4 "DNI" H 9300 950 50  0001 C CNN "Part#"
 	1    9300 950 
 	-1   0    0    1   
 $EndComp

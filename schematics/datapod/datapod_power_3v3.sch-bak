@@ -290,13 +290,9 @@ P 4150 3300
 F 0 "U4" H 5450 3665 50  0000 C CNN
 F 1 "LT8609EMSETRPBF" H 5450 3574 50  0000 C CNN
 F 2 "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.73x1.98mm" H 4450 4000 50  0001 L BNN
-F 3 "Linear Technology/Analog" H 4150 3300 50  0001 L BNN
-F 4 "MSOP-10 Linear Technology" H 4450 3900 50  0001 L BNN "Field4"
-F 5 "LT8609/LT8609A/LT8609B - 42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5μA Quiescent Current" H 4475 3775 50  0001 L BNN "Field5"
-F 6 "LT8609EMSE#TRPBFCT-ND" H 4500 4125 50  0001 L BNN "Field6"
-F 7 "LT8609EMSE#TRPBF" H 4475 4350 50  0001 L BNN "Field7"
-F 8 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT8609EMSE-TRPBF/LT8609EMSE-TRPBFCT-ND/7838162?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 4475 4250 50  0001 L BNN "Field8"
-F 9 "LT8609EMSE#TRPBFCT-ND" H 4975 4500 50  0001 C CNN "Part#"
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT8609-8609A-8609B.pdf" H 4150 3300 50  0001 L BNN
+F 4 "Digikey" H 4150 3300 50  0001 C CNN "Vendor"
+F 5 "LT8609EMSE#TRPBFCT-ND" H 4975 4500 50  0001 C CNN "Part#"
 	1    4150 3300
 	1    0    0    -1  
 $EndComp
@@ -329,6 +325,7 @@ F 0 "TP3" H 2950 1895 50  0000 C CNN
 F 1 "TestPoint_2Pole" H 2950 1804 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 2950 1700 50  0001 C CNN
 F 3 "~" H 2950 1700 50  0001 C CNN
+F 4 "DNI" H 2950 1700 50  0001 C CNN "Part#"
 	1    2950 1700
 	1    0    0    -1  
 $EndComp

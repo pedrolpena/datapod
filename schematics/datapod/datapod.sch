@@ -22,8 +22,7 @@ F 1 "16Mhz" V 4400 2100 50  0000 R CNN
 F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_HandSoldering" H 4200 2150 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238&lang=en" H 4200 2150 50  0001 C CNN
 F 4 "Digikey" H 4200 2150 50  0001 C CNN "Vendor"
-F 5 "https://www.digikey.com/product-detail/en/epson/FA-238-16.0000MB-C3/SER3686DKR-ND/2403540" H 4200 2150 50  0001 C CNN "extra"
-F 6 "SER3686DKR-ND" H 4200 2150 50  0001 C CNN "part#"
+F 5 "SER3686DKR-ND" H 4200 2150 50  0001 C CNN "Part#"
 	1    4200 2150
 	0    -1   -1   0   
 $EndComp
@@ -36,7 +35,7 @@ F 1 "22pF" H 4300 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4238 1400 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf" H 4200 1550 50  0001 C CNN
 F 4 "Digikey" H 4200 1550 50  0001 C CNN "Vendor"
-F 5 "399-8165-1-ND" H 4200 1550 50  0001 C CNN "part#"
+F 5 "399-8165-1-ND" H 4200 1550 50  0001 C CNN "Part#"
 	1    4200 1550
 	1    0    0    -1  
 $EndComp
@@ -360,7 +359,7 @@ F 1 "22pF" H 4300 2900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4238 2600 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf" H 4200 2750 50  0001 C CNN
 F 4 "Digikey" H 4200 2750 50  0001 C CNN "Vendor"
-F 5 "399-8165-1-ND" H 4200 2750 50  0001 C CNN "part#"
+F 5 "399-8165-1-ND" H 4200 2750 50  0001 C CNN "Part#"
 	1    4200 2750
 	1    0    0    -1  
 $EndComp
@@ -374,6 +373,7 @@ F 0 "H1" H 3200 4846 50  0000 L CNN
 F 1 "MountingHole" H 3200 4755 50  0000 L CNN
 F 2 "datapod:MountingHole_0.4_inches_Pad_Via" H 3100 4800 50  0001 C CNN
 F 3 "~" H 3100 4800 50  0001 C CNN
+F 4 "DNI" H 3100 4800 50  0001 C CNN "Part#"
 	1    3100 4800
 	1    0    0    -1  
 $EndComp
@@ -385,9 +385,9 @@ F 0 "U1" H 1000 4500 50  0000 R CNN
 F 1 "ATmega328P-PU" H 1300 4300 50  0000 R CNN
 F 2 "Package_DIP:DIP-28_W7.62mm_SMDSocket_SmallPads" H 1600 2550 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1600 2550 50  0001 C CNN
-F 4 "microchip" H 1600 2550 50  0001 C CNN "Vendor"
-F 5 "110-47-328-41-105000 " H 1600 2550 50  0001 C CNN "Value2"
-F 6 "https://www.digikey.com/products/en?mpart=110-47-328-41-105000&v=54" H 1600 2550 50  0001 C CNN "Datasheet2"
+F 4 "Digikey" H 1600 2550 50  0001 C CNN "Vendor"
+F 5 "110-47-328-41-105000 " H 1600 2550 50  0001 C CNN "Part#"
+F 6 "ATmega328P-U" H 1600 2550 50  0001 C CNN "Part#-2"
 	1    1600 2550
 	1    0    0    -1  
 $EndComp
@@ -405,9 +405,9 @@ P 6300 1450
 F 0 "J9" H 6350 1767 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 6350 1676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 6300 1450 50  0001 C CNN
-F 3 "http://www.cnctech.us/pdfs/3020-XX-0300-00-TR.pdf" H 6300 1450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015910060_sd.pdf" H 6300 1450 50  0001 C CNN
 F 4 "Digikey" H 6300 1450 50  0001 C CNN "Vendor"
-F 5 "1175-1864-ND" H 6300 1450 50  0001 C CNN "part#"
+F 5 "WM17457-ND" H 6300 1450 50  0001 C CNN "Part#"
 	1    6300 1450
 	1    0    0    -1  
 $EndComp
@@ -469,6 +469,7 @@ F 0 "TP2" H 6400 4045 50  0000 C CNN
 F 1 "TestPoint_2Pole" H 6400 3954 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 6400 3850 50  0001 C CNN
 F 3 "~" H 6400 3850 50  0001 C CNN
+F 4 "DNI" H 6400 3850 50  0001 C CNN "Part#"
 	1    6400 3850
 	1    0    0    -1  
 $EndComp
@@ -518,6 +519,7 @@ F 0 "TP4" H 3450 3545 50  0000 C CNN
 F 1 "TestPoint_2Pole" H 3450 3454 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 3450 3350 50  0001 C CNN
 F 3 "~" H 3450 3350 50  0001 C CNN
+F 4 "DNI" H 3450 3350 50  0001 C CNN "Part#"
 	1    3450 3350
 	1    0    0    -1  
 $EndComp
