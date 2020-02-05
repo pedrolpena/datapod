@@ -20,9 +20,9 @@ P 4200 2150
 F 0 "Y1" V 4500 2050 50  0000 R CNN
 F 1 "16Mhz" V 4400 2100 50  0000 R CNN
 F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_HandSoldering" H 4200 2150 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238&lang=en" H 4200 2150 50  0001 C CNN
-F 4 "Digikey" H 4200 2150 50  0001 C CNN "Vendor"
-F 5 "SER3686DKR-ND" H 4200 2150 50  0001 C CNN "Part#"
+F 3 "https://www.mouser.com/datasheet/2/137/FA-238_en-932914.pdf" H 4200 2150 50  0001 C CNN
+F 4 "Mouser" H 4200 2150 50  0001 C CNN "Vendor"
+F 5 "732-FA-23816B-C " H 4200 2150 50  0001 C CNN "Part#"
 	1    4200 2150
 	0    -1   -1   0   
 $EndComp
@@ -519,6 +519,7 @@ F 0 "TP4" H 3450 3545 50  0000 C CNN
 F 1 "TestPoint_2Pole" H 3450 3454 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" H 3450 3350 50  0001 C CNN
 F 3 "~" H 3450 3350 50  0001 C CNN
+F 4 "DNI" H 3450 3350 50  0001 C CNN "Part#"
 	1    3450 3350
 	1    0    0    -1  
 $EndComp
@@ -531,4 +532,72 @@ Wire Wire Line
 Wire Wire Line
 	3650 3550 3650 3350
 Connection ~ 3250 3350
+$Comp
+L Device:CP1 C20
+U 1 1 5E3E26D3
+P 1200 5850
+F 0 "C20" H 1315 5896 50  0000 L CNN
+F 1 "6.3v 3300uF" H 1350 5700 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 1200 5850 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 1200 5850 50  0001 C CNN
+F 4 "493-1009-ND" H 1200 5850 50  0001 C CNN "Part#"
+	1    1200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E3E4DBD
+P 1200 6000
+F 0 "#PWR08" H 1200 5750 50  0001 C CNN
+F 1 "GND" H 1205 5827 50  0000 C CNN
+F 2 "" H 1200 6000 50  0001 C CNN
+F 3 "" H 1200 6000 50  0001 C CNN
+	1    1200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5E3E5347
+P 1200 5700
+F 0 "#PWR07" H 1200 5550 50  0001 C CNN
+F 1 "+5V" H 1215 5873 50  0000 C CNN
+F 2 "" H 1200 5700 50  0001 C CNN
+F 3 "" H 1200 5700 50  0001 C CNN
+	1    1200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5E3FB83F
+P 1250 7050
+F 0 "#PWR024" H 1250 6800 50  0001 C CNN
+F 1 "GND" H 1255 6877 50  0000 C CNN
+F 2 "" H 1250 7050 50  0001 C CNN
+F 3 "" H 1250 7050 50  0001 C CNN
+	1    1250 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR020
+U 1 1 5E3FB845
+P 1250 6750
+F 0 "#PWR020" H 1250 6600 50  0001 C CNN
+F 1 "+5V" H 1265 6923 50  0000 C CNN
+F 2 "" H 1250 6750 50  0001 C CNN
+F 3 "" H 1250 6750 50  0001 C CNN
+	1    1250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C21
+U 1 1 5E400D54
+P 1250 6900
+F 0 "C21" H 1365 6946 50  0000 L CNN
+F 1 "6.3v 3300uF" H 1400 6750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 1250 6900 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 1250 6900 50  0001 C CNN
+F 4 "493-1009-ND" H 1250 6900 50  0001 C CNN "Part#"
+	1    1250 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -440,6 +440,7 @@ F 0 "JP2" V 5704 5768 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 5795 5768 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5750 5700 50  0001 C CNN
 F 3 "~" H 5750 5700 50  0001 C CNN
+F 4 "DNI" V 5750 5700 50  0001 C CNN "Part#"
 	1    5750 5700
 	0    1    1    0   
 $EndComp

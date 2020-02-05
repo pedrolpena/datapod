@@ -1,24 +1,26 @@
 Reference, Value, Vendor, Part#, Part#-2,, Footprint, Datasheet
-Y1,16Mhz,Digikey,SER3686DKR-ND,,,Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_HandSoldering,https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238&lang=en
+Y1,16Mhz,Mouser,732-FA-23816B-C ,,,Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_HandSoldering,https://www.mouser.com/datasheet/2/137/FA-238_en-932914.pdf
 C1,22pF,Digikey,399-8165-1-ND,,,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf
 RN1,R_Pack 10k Ohms,Digikey,OSOPT-10KACT-ND ,,,Package_SO:SSOP-20_3.9x8.7mm_P0.635mm,http://www.vishay.com/docs/60002/osop.pdf
 C2,22pF,Digikey,399-8165-1-ND,,,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf
 H1,MountingHole,,DNI,,,datapod:MountingHole_0.4_inches_Pad_Via,~
-U1,ATmega328P-PU,Digikey,110-47-328-41-105000 ,ATmega328P-U,Install DIP socket on PCB and then mount chip on socket.,Package_DIP:DIP-28_W7.62mm_SMDSocket_SmallPads,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf
+U1,ATmega328P-PU,Digikey,110-47-328-41-105000 ,ATmega328P-U,place dip socket onto pcb and then mount component,Package_DIP:DIP-28_W7.62mm_SMDSocket_SmallPads,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf
 J9,Conn_02x03_Odd_Even,Digikey,WM17457-ND,,,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD,https://www.molex.com/pdm_docs/sd/015910060_sd.pdf
 TP2,TestPoint_2Pole,,DNI,,,TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm,~
 TP4,TestPoint_2Pole,,DNI,,,TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm,~
+C20,6.3v 3300uF,Digikey,493-1009-ND,,,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,http://nichicon-us.com/english/products/pdfs/e-uvr.pdf
+C21,6.3v 3300uF,Digikey,493-1009-ND,,,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,http://nichicon-us.com/english/products/pdfs/e-uvr.pdf
 Q1,FDG1024NZ,Digikey,FDG1024NZFSCT-ND,,,Package_TO_SOT_SMD:SOT-363_SC-70-6,http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
 D1,B220A-13-F ,Digikey,B220A-FDIDKR-ND,,,Diode_SMD:D_SMA,http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
 D2,B220A-13-F ,Digikey,B220A-FDIDKR-ND,,,Diode_SMD:D_SMA,http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
 Q2,FDG1024NZ,Digikey,FDG1024NZFSCT-ND,,,Package_TO_SOT_SMD:SOT-363_SC-70-6,http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
 D3,B220A-13-F ,Digikey,B220A-FDIDKR-ND,,,Diode_SMD:D_SMA,http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
 D4,B220A-13-F ,Digikey,B220A-FDIDKR-ND,,,Diode_SMD:D_SMA,http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
-K1,DS2E-SL2-DC5V,Digikey,ED11086-ND,255-1066-ND,"Install DIP socket on PCB and then mount relay on socket, the line on the relay is towards the center of the board",Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads,https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf
+K1,DS2E-SL2-DC5V,Digikey,ED11086-ND,255-1066-ND,place dip socket onto pcb and then mount component,Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads,https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf
 J3,Conn_01x02,Digikey,WM11969-ND,,,Connector_Molex:Molex_Mega-Fit_76825-0002_2x01_P5.70mm_Horizontal,https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/Mega-Fit_Power_Conn.pdf
 J2,Conn_02x03_Odd_Even,Digikey,WM11971-ND,,,Connector_Molex:Molex_Mega-Fit_76825-0006_2x03_P5.70mm_Horizontal,https://www.molex.com/pdm_docs/as/AS-76823-100.pdf
 J1,Conn_01x02,Digikey,WM3900-ND,,,Connector_Molex:Molex_Mini-Fit_Jr_5569-02A1_2x01_P4.20mm_Horizontal,https://www.molex.com/pdm_docs/sd/039291028_sd.pdf
-K2,DS2E-SL2-DC5V,Digikey,ED11086-ND,255-1066-ND,"Install DIP socket on PCB and then mount relay on socket, the line on the relay is towards the center of the board",Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads,https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf
+K2,DS2E-SL2-DC5V,Digikey,ED11086-ND,255-1066-ND,place dip socket onto pcb and then mount component,Package_DIP:DIP-16_W8.89mm_SMDSocket_LongPads,https://www3.panasonic.biz/ac/e_download/control/relay/signal/catalog/mech_eng_ds.pdf
 JP1,Jumper_3_Open,,DNI,,,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
 JP3,Jumper_3_Open,,DNI,,,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
 Q4,FDG1024NZ,Digikey,FDG1024NZFSCT-ND,,,Package_TO_SOT_SMD:SOT-363_SC-70-6,http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
@@ -31,7 +33,7 @@ C5,1uF,Digikey, TCJP105M025R0500,,,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40m
 C6,1uF,Digikey, TCJP105M025R0500,,,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,http://datasheets.avx.com/TCJ.pdf
 C4,1uF,Digikey, TCJP105M025R0500,,,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,http://datasheets.avx.com/TCJ.pdf
 Q3,IRF7324,Digikey,IRF7324PBFTR-ND,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b
-JP2,SolderJumper_3_Open,,,,,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+JP2,SolderJumper_3_Open,,DNI,,,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,~
 U3,74LVC125,Digikey,296-1222-1-ND,,,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc125a
 J6,Micro_SD_Card,Digikey,732-3820-1-ND,,,Connector_Card:microSD_HC_Wuerth_693072010801,http://katalog.we-online.de/em/datasheet/693072010801.pdf
 R5,10K,Digikey,311-10KERCT-ND,,,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
